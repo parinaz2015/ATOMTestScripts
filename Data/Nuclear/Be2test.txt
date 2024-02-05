@@ -1,0 +1,1 @@
+[['Isotope\ninfo', 'Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo'], ['7Be', '53.2 days', '', '3/2', '2.6460(160)', '-1.399280(4)', ''], ['9Be', 'Stable', '100', '3/2', '2.519(12)', '-1.177430(5)', '0.0529(4)'], ['10Be', '$1.5\\times 10^6$ years', '', '0', '2.355(17)', '', '']]

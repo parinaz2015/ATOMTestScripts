@@ -1,11 +1,3 @@
 Gnd Truth		Test		Mismatches(Not displayed as in version 2)
-['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Quadrupole moment (b) info', 'Natural abundance (%) info', 'Half-life info', 'Magnetic moment (μ N ) info', 'Rms radii (fm) info', 'Isotopeinfo'}
-['40Ca', 'Stable', '96.94', '0', '3.4776(19)', '', '']	['Stable', '96.94', '0', '3.4776(19)', '', '']	{'40Ca'}
-['41Ca', '1.0x10 5 years', '', '7/2', '3.4780(19)', '-1.59443(7)', '-0.0665(18)']	['$1.0\\times 10^5$ years', '', '7/2', '3.4780(19)', '-1.59443(7)', '-0.0665(18)']	{'41Ca', '1.0x10 5 years'}
-['42Ca', 'Stable', '0.65', '0', '3.5081(21)', '', '']	['Stable', '0.65', '0', '3.5081(21)', '', '']	{'42Ca'}
-['43Ca', 'Stable', '0.14', '7/2', '3.4954(19)', '-1.31733(6)', '-0.0408(8)']	['Stable', '0.14', '7/2', '3.4954(19)', '-1.31733(6)', '-0.0408(8)']	{'43Ca'}
-['44Ca', 'Stable', '2.09', '0', '3.5179(21)', '', '']	['Stable', '2.09', '0', '3.5179(21)', '', '']	{'44Ca'}
-['45Ca', '163 days', '', '7/2', '3.4944(21)', '-1.3264(13)', '0.038(12)']	['163 days', '', '7/2', '3.4944(21)', '-1.3264(13)', '0.038(12)']	{'45Ca'}
-['46Ca', 'Stable', '0.004', '0', '3.4953(20)', '', '']	['Stable', '0.004', '0', '3.4953(20)', '', '']	{'46Ca'}
-['47Ca', '4.5 days', '', '7/2', '3.4783(24)', '-1.4064(11)', '']	['4.5 days', '', '7/2', '3.4783(24)', '-1.4064(11)', '']	{'47Ca'}
-['48Ca', 'Stable', '0.19', '0', '3.4771(20)', '', '']	['Stable', '0.19', '0', '3.4771(20)', '', '']	{'48Ca'}
+['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Isotope\ninfo', 'Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Natural abundance (%) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info', 'Isotopeinfo', 'Rms radii (fm) info', 'Half-life info'}
+['41Ca', '1.0x10 5 years', '', '7/2', '3.4780(19)', '-1.59443(7)', '-0.0665(18)']	['41Ca', '$1.0\\times 10^5$ years', '', '7/2', '3.4780(19)', '-1.59443(7)', '-0.0665(18)']	{'1.0x10 5 years'}

@@ -29,8 +29,8 @@ def test_properties(element,gnd_truth_url,path_to_reports_dir):
     print("\n3. Hyperfine Constants")
     test_HyperfineData(element,driver,gnd_truth_url,path_to_reports_dir)
 
-    #print("\n4. Nuclear")
-    #test_NuclearData(element,driver,gnd_truth_url,path_to_reports_dir)
+    print("\n4. Nuclear")
+    test_NuclearData(element,driver,gnd_truth_url,path_to_reports_dir)
 
     print("\n5. Energies")
     test_EnergiesData(element,driver,gnd_truth_url,path_to_reports_dir)
@@ -38,7 +38,7 @@ def test_properties(element,gnd_truth_url,path_to_reports_dir):
     print("\n6. Atomic")
     test_AtomicData(element,driver,gnd_truth_url,path_to_reports_dir)
 
-    print("\n6. Polarizability")
+    print("\n7. Polarizability")
     test_PolarizabilityData(element,driver,gnd_truth_url,path_to_reports_dir)
 
     driver.close()

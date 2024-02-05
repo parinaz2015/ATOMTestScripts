@@ -1,0 +1,1 @@
+[['Isotope\ninfo', 'Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo'], ['22Na', '2.6 years', '', '3', '2.9852(169)', '1.746(3)', '0.180(11)'], ['23Na', 'Stable', '100', '3/2', '2.9936(21)', '2.21750(3)', '0.104(1)'], ['24Na', '15 hours', '', '4', '2.9735(169)', '1.6903(8)', '']]

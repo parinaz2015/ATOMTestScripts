@@ -1,6 +1,4 @@
 Gnd Truth		Test		Mismatches(Not displayed as in version 2)
-['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Half-life\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Quadrupole moment (b) info', 'Natural abundance (%) info', 'Half-life info', 'Magnetic moment (μ N ) info', 'Rms radii (fm) info', 'Isotopeinfo'}
-['223Ra', '11.43 days', '', '3/2', '5.6973(253)', '0.2692(8)', '1.21(3)']	['11.43 days', '3/2', '5.6973(253)', '0.2692(8)', '1.21(3)']	{'', '223Ra'}
-['225Ra', '14.9 days', '', '1/2', '5.7150(279)', '-0.730(2)', '']	['14.9 days', '1/2', '5.7150(279)', '-0.730(2)', '']	{'225Ra'}
-['226Ra', '1599 years', '', '0', '5.7211(288)', '', '']	['1599 years', '0', '5.7211(288)', '', '']	{'226Ra'}
-['227Ra', '42.2 minutes', '', '3/2', '5.7283(300)', '-0.4010(11)', '1.53(6)']	['42.2 minutes', '3/2', '5.7283(300)', '-0.4010(11)', '1.53(6)']	{'', '227Ra'}
+['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Isotope\ninfo', 'Half-life\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Natural abundance (%) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info', 'Isotopeinfo', 'Rms radii (fm) info', 'Half-life info'}
+['223Ra', '11.43 days', '', '3/2', '5.6973(253)', '0.2692(8)', '1.21(3)']	['223Ra', '11.43 days', '3/2', '5.6973(253)', '0.2692(8)', '1.21(3)']	{''}
+['227Ra', '42.2 minutes', '', '3/2', '5.7283(300)', '-0.4010(11)', '1.53(6)']	['227Ra', '42.2 minutes', '3/2', '5.7283(300)', '-0.4010(11)', '1.53(6)']	{''}

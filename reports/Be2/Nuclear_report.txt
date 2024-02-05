@@ -1,5 +1,3 @@
 Gnd Truth		Test		Mismatches(Not displayed as in version 2)
-['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Quadrupole moment (b) info', 'Natural abundance (%) info', 'Half-life info', 'Magnetic moment (μ N ) info', 'Rms radii (fm) info', 'Isotopeinfo'}
-['7Be', '53.2 days', '', '3/2', '2.6460(160)', '-1.399280(4)', '']	['53.2 days', '', '3/2', '2.6460(160)', '-1.399280(4)', '']	{'7Be'}
-['9Be', 'Stable', '100', '3/2', '2.519(12)', '-1.177430(5)', '0.0529(4)']	['Stable', '100', '3/2', '2.519(12)', '-1.177430(5)', '0.0529(4)']	{'9Be'}
-['10Be', '1.5x10 6 years', '', '0', '2.355(17)', '', '']	['$1.5\\times 10^6$ years', '', '0', '2.355(17)', '', '']	{'1.5x10 6 years', '10Be'}
+['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Isotope\ninfo', 'Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Natural abundance (%) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info', 'Isotopeinfo', 'Rms radii (fm) info', 'Half-life info'}
+['10Be', '1.5x10 6 years', '', '0', '2.355(17)', '', '']	['10Be', '$1.5\\times 10^6$ years', '', '0', '2.355(17)', '', '']	{'1.5x10 6 years'}

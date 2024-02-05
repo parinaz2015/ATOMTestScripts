@@ -1,0 +1,1 @@
+[['Isotope\ninfo', 'Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo'], ['24Mg', 'Stable', '78.95', '0', '3.0570(16)', '', ''], ['25Mg', 'Stable', '10.02', '5/2', '3.0284(22)', '-0.85533(3)', '0.199(2)'], ['26Mg', 'Stable', '11.03', '0', '3.0337(18)', '', '']]

@@ -3,8 +3,8 @@ Mismatched data:
 
 State			Column						Value in V3(Test)			Value in V2(Ground Truth)
 --------------------------------------------------------------------------------------------------------------
-2s1/2		Isotope							9Be+								9 Be +
 2s1/2		Experiment (MHz)  			    -625.008837044(12)				    −625. 008837044(12)
+2s1/2		Isotope							9Be+								9 Be +
 2p3/2		Theory (MHz)							Ref								−1.015(3)
 3s1/2		Theory (MHz)							Ref								−158.897(7)
 2s1/2		Isotope							7Be+								7 Be +

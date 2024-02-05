@@ -1,15 +1,2 @@
 Gnd Truth		Test		Mismatches(Not displayed as in version 2)
-['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Quadrupole moment (b) info', 'Natural abundance (%) info', 'Half-life info', 'Magnetic moment (μ N ) info', 'Rms radii (fm) info', 'Isotopeinfo'}
-['127Ba', '12.7 minutes', '', '1/2', '4.8204(51)', '0.0834(10)', '1.78(14)']	['12.7 minutes', '', '1/2', '4.8204(51)', '0.0834(10)', '1.78(14)']	{'127Ba'}
-['129Ba', '2.23 hours', '', '1/2', '4.8248(49)', '-0.398(16)', '1.75(14)']	['2.23 hours', '', '1/2', '4.8248(49)', '-0.398(16)', '1.75(14)']	{'129Ba'}
-['130Ba', 'Stable', '0.11', '0', '4.8283(47)', '', '']	['Stable', '0.11', '0', '4.8283(47)', '', '']	{'130Ba'}
-['131Ba', '11.5 days', '', '1/2', '4.8276(48)', '0.7083(2)', '']	['11.5 days', '', '1/2', '4.8276(48)', '0.7083(2)', '']	{'131Ba'}
-['132Ba', 'Stable', '0.10', '0', '4.8303(47)', '', '']	['Stable', '0.10', '0', '4.8303(47)', '', '']	{'132Ba'}
-['133Ba', '10.55 years', '', '1/2', '4.8286(47)', '0.7719(2)', '']	['10.55 years', '', '1/2', '4.8286(47)', '0.7719(2)', '']	{'133Ba'}
-['134Ba', 'Stable', '2.42', '0', '4.8322(47)', '', '']	['Stable', '2.42', '0', '4.8322(47)', '', '']	{'134Ba'}
-['135Ba', 'Stable', '6.59', '3/2', '4.8294(47)', '0.8381(2)', '0.160(3)']	['Stable', '6.59', '3/2', '4.8294(47)', '0.8381(2)', '0.160(3)']	{'135Ba'}
-['136Ba', 'Stable', '7.85', '0', '4.8334(46)', '', '']	['Stable', '7.85', '0', '4.8334(46)', '', '']	{'136Ba'}
-['137Ba', 'Stable', '11.23', '3/2', '4.8314(47)', '0.9375(2)', '0.245(4)']	['Stable', '11.23', '3/2', '4.8314(47)', '0.9375(2)', '0.245(4)']	{'137Ba'}
-['138Ba', 'Stable', '71.70', '0', '4.8378(46)', '', '']	['Stable', '71.70', '0', '4.8378(46)', '', '']	{'138Ba'}
-['139Ba', '83.1 minutes', '', '7/2', '4.8513(49)', '-0.973(5)', '-0.573(13)']	['83.1 minutes', '', '7/2', '4.8513(49)', '-0.973(5)', '-0.573(13)']	{'139Ba'}
-['141Ba', '18.3 minutes', '', '3/2', '4.8807(69)', '-0.337(5)', '0.454(10)']	['18.3 minutes', '', '3/2', '4.8807(69)', '-0.337(5)', '0.454(10)']	{'141Ba'}
+['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Isotope\ninfo', 'Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Natural abundance (%) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info', 'Isotopeinfo', 'Rms radii (fm) info', 'Half-life info'}

@@ -1,13 +1,3 @@
 Gnd Truth		Test		Mismatches(Not displayed as in version 2)
-['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Quadrupole moment (b) info', 'Natural abundance (%) info', 'Half-life info', 'Magnetic moment (μ N ) info', 'Rms radii (fm) info', 'Isotopeinfo'}
-['141Sm', '10.2 m', '', '1/2', '4.9517(34)', '-0.74(2)', '']	['10.2 m', '', '1/2', '4.9517(34)', '-0.74(2)', '']	{'141Sm'}
-['144Sm', 'Stable', '3.07 (7)', '0', '4.9524(34)', '', '']	['Stable', '3.07 (7)', '0', '4.9524(34)', '', '']	{'144Sm'}
-['145Sm', '340 d', '', '7/2', '4.9651(34)', '-1.120(11)', '-0.60(7)']	['340 d', '', '7/2', '4.9651(34)', '-1.120(11)', '-0.60(7)']	{'145Sm'}
-['147Sm', '1.1x10 11 y', '14.99 (18)', '7/2', '4.9892(35)', '-0.8090(14)', '-0.26(3)']	['1.1x1011 y', '14.99 (18)', '7/2', '4.9892(35)', '-0.8090(14)', '-0.26(3)']	{'1.1x10 11 y', '147Sm'}
-['148Sm', 'Stable', '11.24 (10)', '0', '5.0042(34)', '', '']	['Stable', '11.24 (10)', '0', '5.0042(34)', '', '']	{'148Sm'}
-['149Sm', 'Stable', '13.82 (7)', '7/2', '5.0134(35)', '-0.6677(11)', '0.078(8)']	['Stable', '13.82 (7)', '7/2', '5.0134(35)', '-0.6677(11)', '0.078(8)']	{'149Sm'}
-['150Sm', 'Stable', '7.38 (1)', '0', '5.0387(48)', '', '']	['Stable', '7.38 (1)', '0', '5.0387(48)', '', '']	{'150Sm'}
-['151Sm', '90 y', '', '5/2', '5.0550(57)', '-0.3605(6)', '0.71(7)']	['90 y', '', '5/2', '5.0550(57)', '-0.3605(6)', '0.71(7)']	{'151Sm'}
-['152Sm', 'Stable', '26.75 (16)', '0', '5.0819(60)', '', '']	['Stable', '26.75 (16)', '0', '5.0819(60)', '', '']	{'152Sm'}
-['153Sm', '46.3 h', '', '3/2', '5.0925(68)', '-0.021(3)', '1.30(12)']	['46.3 h', '', '3/2', '5.0925(68)', '-0.021(3)', '1.30(12)']	{'153Sm'}
-['154Sm', 'Stable', '22.75 (29)', '0', '5.1053(67)', '', '']	['Stable', '22.75 (29)', '0', '5.1053(67)', '', '']	{'154Sm'}
+['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Isotope\ninfo', 'Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Natural abundance (%) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info', 'Isotopeinfo', 'Rms radii (fm) info', 'Half-life info'}
+['147Sm', '1.1x10 11 y', '14.99 (18)', '7/2', '4.9892(35)', '-0.8090(14)', '-0.26(3)']	['147Sm', '1.1x1011 y', '14.99 (18)', '7/2', '4.9892(35)', '-0.8090(14)', '-0.26(3)']	{'1.1x10 11 y'}
