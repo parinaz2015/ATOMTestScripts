@@ -1,0 +1,1957 @@
+<html>
+ <!--Export Data-->
+ <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet"/>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+ </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+ </script>
+ <script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569818907/jquery.table2excel.min.js">
+ </script>
+ <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet"/>
+ <!--Export Data-->
+ <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@3.0.0/dist/instantsearch.production.min.js">
+ </script>
+ <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js">
+ </script>
+ <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.print.min.js">
+ </script>
+ <!--bootstap-->
+ <script crossorigin="anonymous" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+ </script>
+ <script crossorigin="anonymous" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+ </script>
+ <script src="MDB\js\popper.min.js">
+ </script>
+ <!-- datatables -->
+ <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet"/>
+ <link href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css" rel="stylesheet"/>
+ <script src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js" type="text/javascript">
+ </script>
+ <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" type="text/javascript">
+ </script>
+ <!-- Toggle Button -->
+ <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet"/>
+ <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js">
+ </script>
+ <!-- part that works for excel -->
+ <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css">
+   <!-- jqeury modal -->
+   <script src="https://cdn.statically.io/gh/Marrs-jin/WebDesign/main/modal_func.js">
+   </script>
+   <link href="https://cdn.statically.io/gh/Marrs-jin/WebDesign/main/modal_style.css" rel="stylesheet"/>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript">
+   </script>
+   <script src="https://code.jquery.com/jquery-3.3.1.js">
+   </script>
+   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js">
+   </script>
+   <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js">
+   </script>
+   <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js">
+   </script>
+   <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js">
+   </script>
+   <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js">
+   </script>
+   <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML" type="text/javascript">
+   </script>
+   <head>
+    <!-- UD header and footer refs -->
+    <link href="css/ud-header.css" rel="stylesheet" type="text/css">
+     <script src="js/ud-search-visibility.js" type="text/javascript">
+     </script>
+     <link href="css/ud-footer.css" rel="stylesheet" type="text/css">
+      <link href="css/main.css" rel="stylesheet"/>
+      <style>
+       /* The background color of the navbar */
+        .navbar-dark {
+            background-color: #113c71;
+        }
+    .navbar2 {
+        padding: 3px 0; 
+        width: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+        margin: auto;
+        background-color: #5b89c3; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .btn {
+  background-color:rgb(222, 228, 222);
+  border: 1pt solid grey;
+  color: black;
+  font-weight: bold;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 70px;
+
+    }
+    .btn-primary{
+          height:20px;
+          font-size: 10px;
+          margin-top: 2px;
+          padding-top: 2px;
+      }
+    .Ref1 , .Ref2{
+    background-color:rgb(222, 228, 222);
+    width: fit-content;
+    height: 20px;
+    padding: 2px 2px;
+    }
+    .main-logo {
+        flex: 1 0 0;
+        text-align: center;
+    }
+    # logo {
+        width: 100%;
+        height: auto;
+    }
+    .sidebar-collapse,
+    .small-logo {
+        width: 100px;
+        
+        padding-left: 10px;
+        height: auto;
+    }
+    @media screen and (max-width: 600px) {
+        .sidebar-collapse,
+        .navbar2,
+        {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        }
+    }
+    @media screen and (max-height: 600px) {
+        .sidebar-collapse,
+        .navbar2,
+        {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        }
+    }
+        navpol {
+        width:100%;
+        padding: 0px;
+    }
+        container{
+        width:100%;
+        padding: 0px;
+        }
+      </style>
+      <style>
+       thead {
+        align:center;
+        height:14.75pt;
+        width:100pt;
+            font-size:13.0pt;
+            color:black;
+            font-weight:700;
+            text-decoration:none;
+            text-underline-style:none;
+            text-line-through:none;
+            font-family:Calibri,sans-serif;
+            border-top:.5pt solid #2F75B5;
+            border-right:.5pt solid #2F75B5;
+            border-bottom:.5pt solid #4472C4;
+            border-left: .5pt;
+            background:#5b89c3;
+            mso-pattern:#4472C4 none;
+            text-align: center;
+            padding-left: 0pt;
+        }
+
+        header.tbody{text-align: justify;
+        text-justify: inter-word;
+        }
+
+        tbody {color: black;
+        align:center;
+        font-size:12.0pt;
+        text-align: center;}
+
+
+
+        tfoot {color: black;}
+
+    th {text-align: center;
+            text-decoration:none;
+            text-underline-style:none;
+            text-line-through:none;
+            font-family:Calibri,sans-serif;
+            font-weight:500;}
+
+        table, th, td {
+        border: 1px solid black;
+        }
+
+        .container {
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 10px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        /* width:40%; */
+        margin: 50px;
+
+    }
+
+    .btn2 {
+    background-color: #ffffff; 
+    border: none;
+    color: black;
+    font-weight: 400;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+
+    }
+    .btn2:hover {
+        background-color: #bbd9ff;
+        text-decoration: none;
+    }
+
+    a.btn2{
+        background: #299542; 
+        color:white;
+        -webkit-appearance: none;
+    }
+    a.btn2:hover{
+        background-color: #2a893e;
+        text-decoration:  none;
+        -webkit-appearance: none;
+    }
+
+    .table-body-left {
+    text-align: left;
+    }
+
+    .mjx-chtml {
+        display: inline-block;
+        line-height: 0;
+        text-indent: 0;
+        text-align: left;
+        text-transform: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        font-size-adjust: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        word-spacing: normal;
+        white-space: nowrap;
+        float: none;
+        direction: ltr;
+        max-width: none;
+        max-height: none;
+        min-width: 0;
+        min-height: 0;
+        border: 0;
+        margin: 0;
+        padding: 1px 0
+    }
+
+    .MJXc-display {
+        display: block;
+        text-align: center;
+        margin: 1em 0;
+        padding: 0
+    }
+
+    .mjx-math {
+        display: inline-block;
+        border-collapse: separate;
+        border-spacing: 0
+    }
+
+    .mjx-math * {
+        display: inline-block;
+        text-align: left
+    }
+
+    .mjx-numerator {
+        display: block;
+        text-align: center
+    }
+
+    .mjx-denominator {
+        display: block;
+        text-align: center
+    }
+
+    .MJXc-fpad {
+        padding-left: .1em;
+        padding-right: .1em
+    }
+
+    .MJXc-bevelled > * {
+        display: inline-block
+    }
+
+    .mjx-stack {
+        display: inline-block
+    }
+
+    .mjx-op {
+        display: block
+    }
+
+    .mjx-under {
+        display: table-cell
+    }
+
+    .mjx-over {
+        display: block
+    }
+
+    .mjx-over > * {
+        padding-left: 0px!important;
+        padding-right: 0px!important
+    }
+
+    .mjx-under > * {
+        padding-left: 0px!important;
+        padding-right: 0px!important
+    }
+
+    .mjx-stack > .mjx-sup {
+        display: block
+    }
+
+    .mjx-stack > .mjx-sub {
+        display: block
+    }
+
+    .mjx-prestack > .mjx-presup {
+        display: block
+    }
+
+    .mjx-prestack > .mjx-presub {
+        display: block
+    }
+
+    .mjx-delim-v > .mjx-char {
+        transform: scale(1)
+    }
+
+    .mjx-delim-h {
+        display: block
+    }
+
+    .mjx-delim-h > .mjx-char {
+        transform: scale(1);
+        display: inline-block
+    }
+
+    .mjx-surd {
+        vertical-align: top
+    }
+
+    .mjx-mphantom * {
+        visibility: hidden
+    }
+
+    .mjx-merror {
+        background-color: #FFFF88;
+        color: #CC0000;
+        border: 1px solid #CC0000;
+        padding: 2px 3px;
+        font-style: normal;
+        font-size: 90%
+    }
+
+    .mjx-annotation-xml {
+        line-height: normal
+    }
+
+    .mjx-menclose > svg {
+        fill: none;
+        stroke: currentColor
+    }
+
+    .mjx-mtr {
+        display: table-row
+    }
+
+    .mjx-mlabeledtr {
+        display: table-row
+    }
+
+    .mjx-mtd {
+        display: table-cell;
+        text-align: center
+    }
+
+    .mjx-label {
+        display: block
+    }
+
+    .mjx-box {
+        display: inline-block
+    }
+
+    .mjx-block {
+        display: block
+    }
+
+    .mjx-span {
+        display: span
+    }
+
+    .mjx-char {
+        display: block;
+        white-space: pre
+    }
+
+    .mjx-itable {
+        display: inline-table
+    }
+
+    .mjx-row {
+        display: table-row
+    }
+
+    .mjx-cell {
+        display: table-cell
+    }
+
+    .mjx-table {
+        display: table;
+        width: 100%
+    }
+
+    .mjx-line {
+        display: block;
+        width: 100%;
+        border-top: 0 solid
+    }
+
+    .mjx-strut {
+        width: 0;
+        padding-top: 1em
+    }
+
+    .MJXc-space1 {
+        margin-left: .167em
+    }
+
+    .MJXc-space2 {
+        margin-left: .222em
+    }
+
+    .MJXc-space3 {
+        margin-left: .278em
+    }
+
+    .mjx-chartest {
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        line-height: normal;
+        font-size: 500%
+    }
+
+    .mjx-chartest .mjx-char {
+        display: inline
+    }
+
+    .mjx-chartest .mjx-box {
+        padding-top: 1000px
+    }
+
+    .MJXc-processing {
+        visibility: hidden;
+        position: fixed;
+        width: 0;
+        height: 0;
+        overflow: hidden
+    }
+
+    .MJXc-processed {
+        display: none
+    }
+
+    .mjx-test {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        font-size-adjust: none;
+        text-indent: 0;
+        text-transform: none;
+        letter-spacing: normal;
+        word-spacing: normal;
+        overflow: hidden;
+        height: 1px
+    }
+
+    .mjx-ex-box-test {
+        position: absolute;
+        width: 1px;
+        height: 60ex
+    }
+
+    # MathJax_CHTML_Tooltip {
+        background-color: InfoBackground;
+        color: InfoText;
+        border: 1px solid black;
+        box-shadow: 2px 2px 5px #AAAAAA;
+        -webkit-box-shadow: 2px 2px 5px #AAAAAA;
+        -moz-box-shadow: 2px 2px 5px #AAAAAA;
+        -khtml-box-shadow: 2px 2px 5px #AAAAAA;
+        padding: 3px 4px;
+        z-index: 401;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: auto;
+        height: auto;
+        display: none
+    }
+
+    .MJXc-TeX-unknown-R {
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS', serif;
+        font-style: normal;
+        font-weight: normal
+    }
+
+    .MJXc-TeX-unknown-I {
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS', serif;
+        font-style: italic;
+        font-weight: normal
+    }
+
+    .MJXc-TeX-unknown-B {
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS', serif;
+        font-style: normal;
+        font-weight: bold
+    }
+
+    .MJXc-TeX-unknown-BI {
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS', serif;
+        font-style: italic;
+        font-weight: bold
+    }
+
+    .MJXc-TeX-ams-R {
+        font-family: MJXc-TeX-ams-R, MJXc-TeX-ams-Rw
+    }
+
+    .MJXc-TeX-cal-B {
+        font-family: MJXc-TeX-cal-B, MJXc-TeX-cal-Bx, MJXc-TeX-cal-Bw
+    }
+
+    .MJXc-TeX-frak-R {
+        font-family: MJXc-TeX-frak-R, MJXc-TeX-frak-Rw
+    }
+
+    .MJXc-TeX-frak-B {
+        font-family: MJXc-TeX-frak-B, MJXc-TeX-frak-Bx, MJXc-TeX-frak-Bw
+    }
+
+    .MJXc-TeX-math-BI {
+        font-family: MJXc-TeX-math-BI, MJXc-TeX-math-BIx, MJXc-TeX-math-BIw
+    }
+
+    .MJXc-TeX-sans-R {
+        font-family: MJXc-TeX-sans-R, MJXc-TeX-sans-Rw
+    }
+
+    .MJXc-TeX-sans-B {
+        font-family: MJXc-TeX-sans-B, MJXc-TeX-sans-Bx, MJXc-TeX-sans-Bw
+    }
+
+    .MJXc-TeX-sans-I {
+        font-family: MJXc-TeX-sans-I, MJXc-TeX-sans-Ix, MJXc-TeX-sans-Iw
+    }
+
+    .MJXc-TeX-script-R {
+        font-family: MJXc-TeX-script-R, MJXc-TeX-script-Rw
+    }
+
+    .MJXc-TeX-type-R {
+        font-family: MJXc-TeX-type-R, MJXc-TeX-type-Rw
+    }
+
+    .MJXc-TeX-cal-R {
+        font-family: MJXc-TeX-cal-R, MJXc-TeX-cal-Rw
+    }
+
+    .MJXc-TeX-main-B {
+        font-family: MJXc-TeX-main-B, MJXc-TeX-main-Bx, MJXc-TeX-main-Bw
+    }
+
+    .MJXc-TeX-main-I {
+        font-family: MJXc-TeX-main-I, MJXc-TeX-main-Ix, MJXc-TeX-main-Iw
+    }
+
+    .MJXc-TeX-main-R {
+        font-family: MJXc-TeX-main-R, MJXc-TeX-main-Rw
+    }
+
+    .MJXc-TeX-math-I {
+        font-family: MJXc-TeX-math-I, MJXc-TeX-math-Ix, MJXc-TeX-math-Iw
+    }
+
+    .MJXc-TeX-size1-R {
+        font-family: MJXc-TeX-size1-R, MJXc-TeX-size1-Rw
+    }
+
+    .MJXc-TeX-size2-R {
+        font-family: MJXc-TeX-size2-R, MJXc-TeX-size2-Rw
+    }
+
+    .MJXc-TeX-size3-R {
+        font-family: MJXc-TeX-size3-R, MJXc-TeX-size3-Rw
+    }
+
+    .MJXc-TeX-size4-R {
+        font-family: MJXc-TeX-size4-R, MJXc-TeX-size4-Rw
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-ams-R;
+        src: local('MathJax_AMS'), local('MathJax_AMS-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-ams-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-cal-B;
+        src: local('MathJax_Caligraphic Bold'), local('MathJax_Caligraphic-Bold')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-cal-Bx;
+        src: local('MathJax_Caligraphic');
+        font-weight: bold
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-cal-Bw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-frak-R;
+        src: local('MathJax_Fraktur'), local('MathJax_Fraktur-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-frak-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-frak-B;
+        src: local('MathJax_Fraktur Bold'), local('MathJax_Fraktur-Bold')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-frak-Bx;
+        src: local('MathJax_Fraktur');
+        font-weight: bold
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-frak-Bw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-math-BI;
+        src: local('MathJax_Math BoldItalic'), local('MathJax_Math-BoldItalic')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-math-BIx;
+        src: local('MathJax_Math');
+        font-weight: bold;
+        font-style: italic
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-math-BIw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-R;
+        src: local('MathJax_SansSerif'), local('MathJax_SansSerif-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-B;
+        src: local('MathJax_SansSerif Bold'), local('MathJax_SansSerif-Bold')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-Bx;
+        src: local('MathJax_SansSerif');
+        font-weight: bold
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-Bw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-I;
+        src: local('MathJax_SansSerif Italic'), local('MathJax_SansSerif-Italic')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-Ix;
+        src: local('MathJax_SansSerif');
+        font-style: italic
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-sans-Iw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-script-R;
+        src: local('MathJax_Script'), local('MathJax_Script-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-script-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-type-R;
+        src: local('MathJax_Typewriter'), local('MathJax_Typewriter-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-type-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-cal-R;
+        src: local('MathJax_Caligraphic'), local('MathJax_Caligraphic-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-cal-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-B;
+        src: local('MathJax_Main Bold'), local('MathJax_Main-Bold')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-Bx;
+        src: local('MathJax_Main');
+        font-weight: bold
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-Bw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-I;
+        src: local('MathJax_Main Italic'), local('MathJax_Main-Italic')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-Ix;
+        src: local('MathJax_Main');
+        font-style: italic
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-Iw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-R;
+        src: local('MathJax_Main'), local('MathJax_Main-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-main-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-math-I;
+        src: local('MathJax_Math Italic'), local('MathJax_Math-Italic')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-math-Ix;
+        src: local('MathJax_Math');
+        font-style: italic
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-math-Iw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size1-R;
+        src: local('MathJax_Size1'), local('MathJax_Size1-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size1-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size2-R;
+        src: local('MathJax_Size2'), local('MathJax_Size2-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size2-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size3-R;
+        src: local('MathJax_Size3'), local('MathJax_Size3-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size3-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size4-R;
+        src: local('MathJax_Size4'), local('MathJax_Size4-Regular')
+    }
+
+    @font-face {
+        font-family: MJXc-TeX-size4-Rw;
+        src/*1*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot');
+        src/*2*/
+        : url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://rawgit.com/mathjax/MathJax/develop/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')
+    }
+
+
+    .MJXf-script {
+        font-size: .8em
+    }
+
+    .MJXf-right {
+        -webkit-transform-origin: right;
+        -moz-transform-origin: right;
+        -ms-transform-origin: right;
+        -o-transform-origin: right;
+        transform-origin: right
+    }
+
+    .MJXf-bold {
+        font-weight: bold
+    }
+
+    .MJXf-italic {
+        font-style: italic
+    }
+
+    .MJXf-scr {
+        font-family: MathJax_Script, 'Times New Roman', Times, STIXGeneral, serif
+    }
+
+    .MJXf-frak {
+        font-family: MathJax_Fraktur, 'Times New Roman', Times, STIXGeneral, serif
+    }
+
+    .MJXf-sf {
+        font-family: MathJax_SansSerif, 'Times New Roman', Times, STIXGeneral, serif
+    }
+
+    .MJXf-cal {
+        font-family: MathJax_Caligraphic, 'Times New Roman', Times, STIXGeneral, serif
+    }
+
+    .MJXf-mono {
+        font-family: MathJax_Typewriter, 'Times New Roman', Times, STIXGeneral, serif
+    }
+
+    .MJXf-largeop {
+        font-size: 150%
+    }
+
+    .MJXf-largeop.MJXf-int {
+        vertical-align: -.2em
+    }
+
+    .MJXf-math {
+        display: inline-block;
+        line-height: 1.2;
+        text-indent: 0;
+        font-family: 'Times New Roman', Times, STIXGeneral, serif;
+        white-space: nowrap;
+        border-collapse: collapse
+    }
+
+    .MJXf-display {
+        display: block;
+        text-align: center;
+        margin: 1em 0
+    }
+
+    .MJXf-math span {
+        display: inline-block
+    }
+
+    .MJXf-box {
+        display: block!important;
+        text-align: center
+    }
+
+    .MJXf-box:after {
+        content: " "
+    }
+
+    .MJXf-rule {
+        display: block!important;
+        margin-top: .1em
+    }
+
+    .MJXf-char {
+        display: block!important
+    }
+
+    .MJXf-mo {
+        margin: 0 .15em
+    }
+
+    .MJXf-mfrac {
+        margin: 0 .125em;
+        vertical-align: .25em
+    }
+
+    .MJXf-denom {
+        display: inline-table!important;
+        width: 100%
+    }
+
+    .MJXf-denom > * {
+        display: table-row!important
+    }
+
+    .MJXf-surd {
+        vertical-align: top
+    }
+
+    .MJXf-surd > * {
+        display: block!important
+    }
+
+    .MJXf-script-box > * {
+        display: table!important;
+        height: 50%
+    }
+
+    .MJXf-script-box > * > * {
+        display: table-cell!important;
+        vertical-align: top
+    }
+
+    .MJXf-script-box > *:last-child > * {
+        vertical-align: bottom
+    }
+
+    .MJXf-script-box > * > * > * {
+        display: block!important
+    }
+
+    .MJXf-mphantom {
+        visibility: hidden
+    }
+
+    .MJXf-munderover {
+        display: inline-table!important
+    }
+
+    .MJXf-over {
+        display: inline-block!important;
+        text-align: center
+    }
+
+    .MJXf-over > * {
+        display: block!important
+    }
+
+    .MJXf-munderover > * {
+        display: table-row!important
+    }
+
+    .MJXf-mtable {
+        vertical-align: .25em;
+        margin: 0 .125em
+    }
+
+    .MJXf-mtable > * {
+        display: inline-table!important;
+        vertical-align: middle
+    }
+
+    .MJXf-mtr {
+        display: table-row!important
+    }
+
+    .MJXf-mtd {
+        display: table-cell!important;
+        text-align: center;
+        padding: .5em 0 0 .5em
+    }
+
+    .MJXf-mtr > .MJXf-mtd:first-child {
+        padding-left: 0
+    }
+
+    .MJXf-mtr:first-child > .MJXf-mtd {
+        padding-top: 0
+    }
+
+    .MJXf-mlabeledtr {
+        display: table-row!important
+    }
+
+    .MJXf-mlabeledtr > .MJXf-mtd:first-child {
+        padding-left: 0
+    }
+
+    .MJXf-mlabeledtr:first-child > .MJXf-mtd {
+        padding-top: 0
+    }
+
+    .MJXf-merror {
+        background-color: #FFFF88;
+        color: #CC0000;
+        border: 1px solid #CC0000;
+        padding: 1px 3px;
+        font-style: normal;
+        font-size: 90%
+    }
+
+    .MJXf-scale0 {
+        -webkit-transform: scaleX(.0);
+        -moz-transform: scaleX(.0);
+        -ms-transform: scaleX(.0);
+        -o-transform: scaleX(.0);
+        transform: scaleX(.0)
+    }
+
+    .MJXf-scale1 {
+        -webkit-transform: scaleX(.1);
+        -moz-transform: scaleX(.1);
+        -ms-transform: scaleX(.1);
+        -o-transform: scaleX(.1);
+        transform: scaleX(.1)
+    }
+
+    .MJXf-scale2 {
+        -webkit-transform: scaleX(.2);
+        -moz-transform: scaleX(.2);
+        -ms-transform: scaleX(.2);
+        -o-transform: scaleX(.2);
+        transform: scaleX(.2)
+    }
+
+    .MJXf-scale3 {
+        -webkit-transform: scaleX(.3);
+        -moz-transform: scaleX(.3);
+        -ms-transform: scaleX(.3);
+        -o-transform: scaleX(.3);
+        transform: scaleX(.3)
+    }
+
+    .MJXf-scale4 {
+        -webkit-transform: scaleX(.4);
+        -moz-transform: scaleX(.4);
+        -ms-transform: scaleX(.4);
+        -o-transform: scaleX(.4);
+        transform: scaleX(.4)
+    }
+
+    .MJXf-scale5 {
+        -webkit-transform: scaleX(.5);
+        -moz-transform: scaleX(.5);
+        -ms-transform: scaleX(.5);
+        -o-transform: scaleX(.5);
+        transform: scaleX(.5)
+    }
+
+    .MJXf-scale6 {
+        -webkit-transform: scaleX(.6);
+        -moz-transform: scaleX(.6);
+        -ms-transform: scaleX(.6);
+        -o-transform: scaleX(.6);
+        transform: scaleX(.6)
+    }
+
+    .MJXf-scale7 {
+        -webkit-transform: scaleX(.7);
+        -moz-transform: scaleX(.7);
+        -ms-transform: scaleX(.7);
+        -o-transform: scaleX(.7);
+        transform: scaleX(.7)
+    }
+
+    .MJXf-scale8 {
+        -webkit-transform: scaleX(.8);
+        -moz-transform: scaleX(.8);
+        -ms-transform: scaleX(.8);
+        -o-transform: scaleX(.8);
+        transform: scaleX(.8)
+    }
+
+    .MJXf-scale9 {
+        -webkit-transform: scaleX(.9);
+        -moz-transform: scaleX(.9);
+        -ms-transform: scaleX(.9);
+        -o-transform: scaleX(.9);
+        transform: scaleX(.9)
+    }
+
+
+    td, th{
+
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw;
+    height:50px;
+
+    }
+    /* font: Bold 13px/20px 'Arial Bold', sans-serif; */
+
+    th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    }
+
+    
+
+    .jqmodal {
+        display: none;
+        vertical-align: middle;
+        position: relative;
+        z-index: 2;
+
+        /* determines posiition of modal pop up */
+
+        left: 30% !important;
+        bottom: 10% !important;
+
+
+        }
+
+        @media screen and (max-width: 600px) {
+        .jqmodal {
+            left: 0% !important;
+            bottom: 0% !important;
+        }s
+        }
+
+        .btn1 {
+        background-color: rgb(231, 200, 26);
+        border: none;
+        color: black;
+        font-weight: bold;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 5px;
+        box-shadow: 0 2px #999;
+
+    }
+        .disabled {
+        
+        background-color: #bbd9ff; 
+        }
+      </style>
+      <div class="jqmodal" id="PgInfo" style="bottom: 0% !important;">
+       <u1>
+        <li>
+         Click on the "Data Info" button to see data source and other notes
+        </li>
+        <li>
+         See "About the project’’ for transition rate formulas and explanation of units
+        </li>
+        <a href="#" rel="jqmodal:close">
+         Close
+        </a>
+       </u1>
+      </div>
+      <div class="jqmodal" id="UnitInfo" style=" bottom: 10% !important;">
+       <p>
+        Energies are given in cm\(^{-1}\). See
+        <a href="https://www.nist.gov/pml/atomic-spectroscopy-compendium-basic-ideas-notation-data-and-formulas/atomic-spectroscopy-0#node02" target="_blank">
+         this link
+        </a>
+        for conversion factors.  
+        Electric matrix elements are given in atomic units. Magnetic dipole matrix elements are given in Bohr magnetons, \(\mu_B\). The values of magnetic-dipole hyperfine constants A are listed in MHz. Dipole polarizabilities \(\alpha\) are given in atomic units, \(a_0^3\), where \(a_0\) is the Bohr radius.  The atomic units for \(\alpha\) can be converted to SI units via \(\alpha /h \rm{[Hz/(V/m)^2]}\)\(=2.48832 \times 10^{-8} \alpha \) [a.u.], where the conversion coefficient is  \( 4\pi \epsilon_0 a^3_0/h \) and the Planck constant \(h\) is factored out.
+       </p>
+       <a href="about.html" target="_blank">
+        Learn more about these data
+       </a>
+       <p class="" style="margin: 4px;">
+       </p>
+       <a href="#" rel="jqmodal:close">
+        Close
+       </a>
+      </div>
+      <div class="jqmodal" id="DataInfo" style="bottom: 0% !important; text-align:left;">
+       <div style="text-align:left;">
+        <table border="1" class="dataframe">
+         <tbody class="table-body-left">
+          <tr>
+           <td>
+            Data are taken from, “M. S. Safronova, V. A. Dzuba, V. V. Flambaum, U. I. Safronova, S. G. Porsev, and M. G. Kozlov, Phys. Rev. A 90, 042513 (2014), DOI:
+            <a href="https://doi.org/10.1103/PhysRevA.90.042513" target="_blank">
+             https://doi.org/10.1103/PhysRevA.90.042513
+            </a>
+            ", unless noted otherwise.
+           </td>
+          </tr>
+          <tr>
+           <td>
+            Notes:
+            <br/>
+            1) Ground state ionization energy \(\ \rm{E}_{\rm{IP}} \) = 101.2 eV is given in, “M.  S. Safronova, V.  A. Dzuba, V.  V. Flambaum, U.  I. Safronova, S.  G. Porsev, and M.  G. Kozlov, Phys. Rev. Lett. 113, 030801 (2014), DOI:
+            <a href="https://doi.org/10.1103/PhysRevLett.113.03080" target="_blank">
+             https://doi.org/10.1103/PhysRevLett.113.03080
+            </a>
+            ".
+            <br/>
+            2) Experimental energies from
+            <button class="btn btn-primary Ref2" data-target="#ref-modal" data-toggle="modal" type="button">
+             Ref
+            </button>
+            are used in calculation of transition rate and lifetime.
+            <br/>
+            3) Transition types ‘M1’ and ‘E2’ stand for magnetic dipole and electric quadrupole transition, respectively.
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <a href="#" rel="jqmodal:close">
+         Close
+        </a>
+       </div>
+      </div>
+      <div style="text-align:left">
+       <div align="left;" class="jqmodal" id="RefInfo" style="bottom: 0% !important;">
+        <a href="#" rel="jqmodal:close">
+         Close
+        </a>
+       </div>
+      </div>
+     </link>
+    </link>
+   </head>
+   <!-- Modal -->
+   <div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+      <div class="modal-header">
+       <h5 class="modal-title" id="exampleModalLongTitle">
+        Reference:
+       </h5>
+       <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+        <span aria-hidden="true">
+         ×
+        </span>
+       </button>
+      </div>
+      <div class="modal-body">
+       Hey There
+      </div>
+      <div class="modal-footer">
+       <button class="btn btn-secondary" data-dismiss="modal" type="button">
+        Close
+       </button>
+       <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--The font size is set to 12 pixels, the line height is set to 30 pixels-->
+   <body onclick="getFocus();" onload="load()">
+    <nav class="navbar navbar-dark navbar-expand-lg">
+     <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+      <span class="navbar-toggler-icon">
+      </span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+       <li class="nav-item active">
+        <a href="https://www.udel.edu/atom">
+         <img class="logo-side" src="photos/logo3.png"/>
+        </a>
+       </li>
+       <li class="nav-item active">
+        <a class="nav-link active" href="index.html">
+         Home
+         <span class="sr-only">
+          (current)
+         </span>
+        </a>
+       </li>
+       <li class="nav-item dropdown">
+        <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" style="color: white;">
+         Elements
+        </a>
+        <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-primary">
+         <a class="dropdown-item" href="Li1.html">
+          Li
+         </a>
+         <a class="dropdown-item" href="Na1.html">
+          Na
+         </a>
+         <a class="dropdown-item" href="K1.html">
+          K
+         </a>
+         <a class="dropdown-item" href="Rb1.html">
+          Rb
+         </a>
+         <a class="dropdown-item" href="Cs1.html">
+          Cs
+         </a>
+         <a class="dropdown-item" href="Fr1.html">
+          Fr
+         </a>
+         <a class="dropdown-item" href="Be2.html">
+          Be
+          <sup>
+           +
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Mg2.html">
+          Mg
+          <sup>
+           +
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Ca2.html">
+          Ca
+          <sup>
+           +
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Sr2.html">
+          Sr
+          <sup>
+           +
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Ba2.html">
+          Ba
+          <sup>
+           +
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Ra2.html">
+          Ra
+          <sup>
+           +
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Cs7hci.html">
+          Cs
+          <sup>
+           6+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Ba8hci.html">
+          Ba
+          <sup>
+           7+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Ce10hci.html">
+          Ce
+          <sup>
+           9+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Pr11hci.html">
+          Pr
+          <sup>
+           10+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Nd12hci.html">
+          Nd
+          <sup>
+           11+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Nd13hci.html">
+          Nd
+          <sup>
+           12+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Nd14hci.html">
+          Nd
+          <sup>
+           13+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Sm14hci.html">
+          Sm
+          <sup>
+           13+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Sm15hci.html">
+          Sm
+          <sup>
+           14+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Sm16hci.html">
+          Sm
+          <sup>
+           15+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Eu15hci.html">
+          Eu
+          <sup>
+           14+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Cf16hci.html">
+          Cf
+          <sup>
+           15+
+          </sup>
+         </a>
+         <a class="dropdown-item" href="Cf18hci.html">
+          Cf
+          <sup>
+           17+
+          </sup>
+         </a>
+        </div>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="team.html" style="color: white">
+         Our team
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="about.html" style="color: white">
+         About the project
+        </a>
+       </li>
+      </ul>
+      <a class="btn2 btn-outline-success my-2 my-sm-0" href="#PgInfo" rel="jqmodal:open" style="margin:5px 5px 5px 5px;" type="button">
+       Help
+      </a>
+      <a class="btn2 btn-outline-success my-2 my-sm-0" href="#UnitInfo" rel="jqmodal:open" style="margin:5px 5px 5px 5px;" type="button">
+       Units
+      </a>
+      <button class="btn2 btn-grey btn-outline-success my-2 my-sm-0" onclick="location.href = 'citation.html';" style="margin:5px 5px 5px 5px">
+       Citation info
+      </button>
+      <button class="btn2 btn-grey btn-outline-success my-2 my-sm-0" onclick="location.href = 'feedback.html';" style="margin:5px 5px 5px 5px">
+       Feedback
+      </button>
+     </div>
+    </nav>
+    <nav class="navbar2">
+     <div class="sidebar-collapse noprint">
+      <h1 style="color:white; font-size: 27px;">
+       Ba
+       <sup>
+        7+
+       </sup>
+      </h1>
+     </div>
+     <button class="btn2 noprint disabled" style="margin:5px 5px 5px 20px;width:140px; font-size: 15px; cursor: not-allowed;">
+      Atomic data
+     </button>
+     <button class="btn2 noprint" onclick="location.href = 'Ba8Nuclear.html';" style="margin:5px 5px 5px 20px;  width:140px; font-size: 15px;">
+      Nuclear data
+     </button>
+     <a class="btn2 btn-outline-success my-2 my-sm-0" href="#DataInfo" rel="jqmodal:open" style="margin:5px 50px 20px 5px;  text-align: start" type="button">
+      Data Info
+     </a>
+     <div class="main-logo noprint">
+     </div>
+     <a href="https://physics.nist.gov/cgi-bin/ASD/energy1.pl?de=0&amp;spectrum=Ba+VIII&amp;submit=Retrieve+Data&amp;units=0&amp;format=0&amp;output=0&amp;page_size=15&amp;multiplet_ordered=0&amp;conf_out=on&amp;term_out=on&amp;level_out=on&amp;unc_out=1&amp;j_out=on&amp;lande_out=on&amp;perc_out=on&amp;biblio=on&amp;temp=" style="margin:5px 20px 5px 5px;" target="_blank">
+      <img alt="[ASD data]" id="sc2logo" src="https://i.ibb.co/bP87x6w/asd6round.png" title="NIST database"/>
+     </a>
+    </nav>
+    <navpol class="noprint">
+     <div style="overflow-x:auto;">
+      <div align="center">
+       <p>
+       </p>
+       <table border="1" class="dataframe">
+        <thead>
+         <tr>
+          <th>
+           State
+          </th>
+          <th>
+           Energy
+           <button class="btn btn-primary Ref2" data-target="#ref-modal" data-toggle="modal" type="button">
+            Ref
+           </button>
+           <br/>
+          </th>
+          <th>
+           \(\ \lambda \)
+           <button class="btn btn-primary Ref2" data-target="#ref-modal" data-toggle="modal" type="button">
+            Ref
+           </button>
+           <br/>
+          </th>
+          <th>
+           Lifetime
+           <br/>
+          </th>
+         </tr>
+         <tr>
+          <th>
+           \(\ \)
+          </th>
+          <th>
+           \(\ \rm{cm}^{-1} \)
+          </th>
+          <th>
+           nm
+          </th>
+          <th>
+           s
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           $$5p_{1/2}$$
+          </td>
+          <td>
+           0
+          </td>
+          <td>
+           $$ $$
+          </td>
+          <td>
+           $$ $$
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$5p_{3/2}$$
+          </td>
+          <td>
+           23592
+          </td>
+          <td>
+           423.87
+          </td>
+          <td>
+           8.43 \(\ \times 10^{-3} \)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$4f_{5/2}$$
+          </td>
+          <td>
+           137385
+          </td>
+          <td>
+           72.79
+          </td>
+          <td>
+           3.13 \(\ \times 10^{-4} \)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$4f_{7/2}$$
+          </td>
+          <td>
+           138675
+          </td>
+          <td>
+           72.11
+          </td>
+          <td>
+           6.30 \(\ \times 10^{-4} \)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <p>
+       </p>
+       <table border="1" class="dataframe">
+        <thead>
+         <tr>
+          <th>
+           Transition
+          </th>
+          <th>
+           Type
+          </th>
+          <th>
+           Transition energy
+           <button class="btn btn-primary Ref2" data-target="#ref-modal" data-toggle="modal" type="button">
+            Ref
+           </button>
+          </th>
+          <th>
+           \(\ \lambda \)
+           <button class="btn btn-primary Ref2" data-target="#ref-modal" data-toggle="modal" type="button">
+            Ref
+           </button>
+          </th>
+          <th>
+           Matrix element
+           <br/>
+          </th>
+          <th>
+           Transition rate
+          </th>
+         </tr>
+         <tr>
+          <th>
+           \(\ \)
+          </th>
+          <th>
+           \(\ \)
+          </th>
+          <th>
+           \(\ \rm{cm}^{-1} \)
+          </th>
+          <th>
+           \(\ \rm{nm} \)
+          </th>
+          <th>
+           \(\ \)
+          </th>
+          <th>
+           \(\ \rm{s}^{-1} \)
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           $$5p_{3/2}-5p_{1/2}$$
+          </td>
+          <td>
+           M1
+          </td>
+          <td>
+           23592
+          </td>
+          <td>
+           423.87
+          </td>
+          <td>
+           1.151 \(\ \mu_B \)
+          </td>
+          <td>
+           1.174 \(\ \times 10^2 \)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$5p_{3/2}-5p_{1/2}$$
+          </td>
+          <td>
+           E2
+          </td>
+          <td>
+           23592
+          </td>
+          <td>
+           423.87
+          </td>
+          <td>
+           2.544 a.u.
+          </td>
+          <td>
+           1.324
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$4f_{5/2}-5p_{1/2}$$
+          </td>
+          <td>
+           E2
+          </td>
+          <td>
+           137385
+          </td>
+          <td>
+           72.79
+          </td>
+          <td>
+           1.770 a.u.
+          </td>
+          <td>
+           2.862 \(\ \times 10^3 \)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$4f_{5/2}-5p_{3/2}$$
+          </td>
+          <td>
+           E2
+          </td>
+          <td>
+           113793
+          </td>
+          <td>
+           87.88
+          </td>
+          <td>
+           0.963 a.u.
+          </td>
+          <td>
+           3.304 \(\ \times 10^2 \)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$4f_{7/2}-4f_{5/2}$$
+          </td>
+          <td>
+           M1
+          </td>
+          <td>
+           1290
+          </td>
+          <td>
+           7752
+          </td>
+          <td>
+           1.851 \(\ \mu_B \)
+          </td>
+          <td>
+           2.480 \(\ \times 10^{-2} \)
+          </td>
+         </tr>
+         <tr>
+          <td>
+           $$4f_{7/2}-5p_{3/2}$$
+          </td>
+          <td>
+           E2
+          </td>
+          <td>
+           115083
+          </td>
+          <td>
+           86.89
+          </td>
+          <td>
+           2.371 a.u.
+          </td>
+          <td>
+           1.589 \(\ \times 10^3 \)
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <p>
+       </p>
+       <p>
+       </p>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="ref-modal" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+       <div class="modal-content">
+        <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLongTitle">
+          Reference:
+         </h5>
+         <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+          <span aria-hidden="true">
+           ×
+          </span>
+         </button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+         <button class="btn btn-secondary" data-dismiss="modal" type="button">
+          Close
+         </button>
+         <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- START UD Footer -->
+     <footer id="udFooter" style="margin-top: 60px">
+      <div class="udFooter-container">
+       <div class="udFooterHeader">
+        <a href="http://www.udel.edu" target="_blank">
+         <img alt="UD" id="udFooterLogo" src="img/ud-monogram.png"/>
+        </a>
+        <div class="name-site">
+         Portal for High-Precision Atomic Data and Computation
+        </div>
+        <ul class="udFooterSocial-icons">
+         <li>
+          <a href="https://twitter.com/UDelaware" target="_blank" title="Twitter">
+           <img alt="Twitter" src="img/twitter.png" title="Twitter"/>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.facebook.com/udelaware" target="_blank" title="Facebook">
+           <img alt="Facebook" src="img/facebook.png" title="Facebook"/>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.instagram.com/udelaware" target="_blank" title="Instagram">
+           <img alt="Instagram" src="img/instagram.png" title="Instagram"/>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.youtube.com/univdelaware" target="_blank" title="Youtube">
+           <img alt="YouTube" src="img/youtube.png" title="Youtube"/>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.pinterest.com/udelaware/" target="_blank" title="Pinterest">
+           <img alt="Pinterest" src="img/pininterest.png" title="Pinterest"/>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.linkedin.com/edu/school?id=18070" target="_blank" title="Linkedin">
+           <img alt="Linkedin" src="img/linkedin.png" title="Linkedin"/>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="udFooterLinks">
+       <div class="container-fluid">
+        <div class="link-item">
+         ©2021 University of Delaware
+        </div>
+        <div class="link-item">
+         <a href="http://www.udel.edu/home/comments/">
+          Comments
+         </a>
+        </div>
+        <div class="link-item">
+         <a href="http://www.udel.edu/home/legal-notices/">
+          Legal Notices
+         </a>
+        </div>
+        <div class="link-item">
+         <a href="http://www.udel.edu/home/legal-notices/accessibility/">
+          Accessibility Notice
+         </a>
+        </div>
+       </div>
+      </div>
+     </footer>
+     <!-- END UD Footer -->
+    </navpol>
+   </body>
+  </link>
+ </link>
+</html>

@@ -1,0 +1,32 @@
+->Missing columns in test data table: Upper
+->Table not tested
+--------------------------------------------------------------------------------------------------------------
+
+
+Result for table: lower
+
+State			Column						Value in V3(Test)			Value in V2(Ground Truth)
+--------------------------------------------------------------------------------------------------------------
+5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-5p1/2
+5p3/2−5p3/2		Matrix element							1.152							1.152 ( muB )
+5p3/2−5p3/2		( lambda )  							516							516.0
+5p3/2−5p3/2		Matrix element							2.885							2.885 a.u.
+5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-5p1/2
+5p3/2−5p3/2		( lambda )  							516							516.0
+5p3/2−5p3/2		Transition rate							0.6371							6.371 (  10^-1 )
+4f5/2−4f5/2		Transition							4f5/2−4f5/2							4f5/2-5p1/2
+4f5/2−4f5/2		Matrix element							2.315							2.315 a.u.
+4f5/2−4f5/2		Transition rate							12820							1.282 (  10^4 )
+4f5/2−4f5/2		Transition							4f5/2−4f5/2							4f5/2-5p3/2
+4f5/2−4f5/2		Matrix element							1.271							1.271 a.u.
+4f5/2−4f5/2		Transition rate							2080							2.080 (  10^3 )
+4f7/2−4f7/2		Matrix element							1.851							1.851 ( muB )
+4f7/2−4f7/2		Transition							4f7/2−4f7/2							4f7/2-4f5/2
+4f7/2−4f7/2		Transition rate							0.005053							5.053 (  10^-3 )
+4f7/2−4f7/2		Transition							4f7/2−4f7/2							4f7/2-4f5/2
+4f7/2−4f7/2		Matrix element							0.784							0.784 a.u.
+4f7/2−4f7/2		Transition rate							2.166e-9							2.166 (  10^-9  )
+4f7/2−4f7/2		Matrix element							3.123							3.123 a.u.
+4f7/2−4f7/2		Transition							4f7/2−4f7/2							4f7/2-5p3/2
+4f7/2−4f7/2		Transition rate							9668							9.668 (  10^3 )
+--------------------------------------------------------------------------------------------------------------

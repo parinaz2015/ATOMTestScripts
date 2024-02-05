@@ -1,0 +1,8 @@
+There are 0 number of empty rows in the test data
+Mismatched data:
+
+State			Column						Value in V3(Test)			Value in V2(Ground Truth)
+--------------------------------------------------------------------------------------------------------------
+6s1/2		Isotope							Ba+137								137 Ba +
+		Isotope							Ba+135								135 Ba +
+--------------------------------------------------------------------------------------------------------------

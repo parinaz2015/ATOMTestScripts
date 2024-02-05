@@ -1,0 +1,9 @@
+There are 2 number of empty rows in the test data
+Mismatched data:
+
+State			Column						Value in V3(Test)			Value in V2(Ground Truth)
+--------------------------------------------------------------------------------------------------------------
+4s1/2		Isotope							K39								39 K
+4s1/2		Isotope							K40								40 K
+4s1/2		Isotope							K41								41 K
+--------------------------------------------------------------------------------------------------------------

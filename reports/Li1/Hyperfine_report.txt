@@ -1,0 +1,8 @@
+There are 1 number of empty rows in the test data
+Mismatched data:
+
+State			Column						Value in V3(Test)			Value in V2(Ground Truth)
+--------------------------------------------------------------------------------------------------------------
+2s1/2		Isotope							7Li								7 Li
+2s1/2		Isotope							6Li								6 Li
+--------------------------------------------------------------------------------------------------------------

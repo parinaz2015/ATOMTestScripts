@@ -1,0 +1,3 @@
+Selenium
+requests
+html_table_parser

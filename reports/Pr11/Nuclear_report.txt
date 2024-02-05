@@ -1,0 +1,5 @@
+Gnd Truth		Test		Mismatches(Not displayed as in version 2)
+['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Half-life\ninfo', 'Natural abundance (%)\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Quadrupole moment (b) info', 'Natural abundance (%) info', 'Half-life info', 'Magnetic moment (μ N ) info', 'Rms radii (fm) info', 'Isotopeinfo'}
+['141Pr', 'Stable', '100', '5/2', '4.8919(50)', '4.266(3)', '-0.077(6)']	['Stable', '100', '5/2', '4.8919(50)', '4.266(3)', '-0.077(6)']	{'141Pr'}
+['142Pr', '19.1 h', '', '2', '', '0.234(1)', '0.039(17)']	['19.1 h', '', '2', '', '0.234(1)', '0.039(17)']	{'142Pr'}
+['143Pr', '13.57 d', '', '7/2', '', '2.695(5)', '0.77(16)']	['13.57 d', '', '7/2', '', '2.695(5)', '0.77(16)']	{'143Pr'}

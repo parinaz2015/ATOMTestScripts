@@ -1,0 +1,10 @@
+Gnd Truth		Test		Mismatches(Not displayed as in version 2)
+['Isotopeinfo', 'Half-life info', 'Natural abundance (%) info', 'Nuclear spin', 'Rms radii (fm) info', 'Magnetic moment (μ N ) info', 'Quadrupole moment (b) info']	['Half-life\ninfo', 'Nuclear spin', 'Rms radii (fm)\ninfo', 'Magnetic moment (μN)\ninfo', 'Quadrupole moment (b)\ninfo']	{'Quadrupole moment (b) info', 'Natural abundance (%) info', 'Half-life info', 'Magnetic moment (μ N ) info', 'Rms radii (fm) info', 'Isotopeinfo'}
+['210Fr', '3.2 minutes', '', '6', '5.5818(176)', '4.38(5)', '0.19(2)']	['3.2 minutes', '6', '5.5818(176)', '4.38(5)', '0.19(2)']	{'', '210Fr'}
+['211Fr', '3.1 minutes', '', '9/2', '5.5882(176)', '3.97(5)', '-0.19(3)']	['3.1 minutes', '9/2', '5.5882(176)', '3.97(5)', '-0.19(3)']	{'', '211Fr'}
+['212Fr', '20 minutes', '', '5', '5.5915(176)', '4.59(5)', '-0.10(1)']	['20 minutes', '5', '5.5915(176)', '4.59(5)', '-0.10(1)']	{'', '212Fr'}
+['221Fr', '4.9 minutes', '', '5/2', '5.6790(177)', '1.57(2)', '-0.98(6)']	['4.9 minutes', '5/2', '5.6790(177)', '1.57(2)', '-0.98(6)']	{'221Fr', ''}
+['222Fr', '14.2 minutes', '', '2', '5.6890(177)', '0.63(1)', '0.51(4)']	['14.2 minutes', '2', '5.6890(177)', '0.63(1)', '0.51(4)']	{'', '222Fr'}
+['223Fr', '22 minutes', '', '3/2', '5.6951(178)', '1.16(1)', '1.17(1)']	['22 minutes', '3/2', '5.6951(178)', '1.16(1)', '1.17(1)']	{'', '223Fr'}
+['224Fr', '3.3 minutes', '', '1', '5.7061(178)', '0.40(1)', '0.517(4)']	['3.3 minutes', '1', '5.7061(178)', '0.40(1)', '0.517(4)']	{'', '224Fr'}
+['225Fr', '3.95 minutes', '', '3/2', '5.7112(178)', '1.06(1)', '1.32(5)']	['3.95 minutes', '3/2', '5.7112(178)', '1.06(1)', '1.32(5)']	{'', '225Fr'}
