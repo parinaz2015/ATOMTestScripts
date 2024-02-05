@@ -25,7 +25,7 @@ Version 2 - https://www1.udel.edu/atom/index.html
 (d) html_table_parser\
 (e) webdriver_manager\
 (f) html-table-parser-python3\
-(g) numpy\
+(g) numpy
 
 ## Directory Structure
 
@@ -65,6 +65,7 @@ The master script is the "dynamic_scrape_and_test.py" script. Run this script
 using the following command: 
    
 For Macintosh: python3 dynamic_scrape_and_test.py
+
 For Windows:   python -Xutf8 dynamic_scrape_and_test.py
 
 Notes:
