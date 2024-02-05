@@ -7,54 +7,54 @@ Result for table: lower
 
 State			Column						Value in V3(Test)			Value in V2(Ground Truth)
 --------------------------------------------------------------------------------------------------------------
-5s2 1S0−5s4f 3F2		Matrix element							0.00012							0.00012 ( muB )
-5s2 1S0−5s4f 3F2		Transition							5s2 1S0−5s4f 3F2							5s2  ^1S0-5s4f ^3F2
 5s2 1S0−5s4f 3F2		Transition rate							1.312e-11							1.312 (  10^-11 )
-5s4f 3F2−5s4f 3F3		Transition rate							0.05266							5.266 (  10^-2 )
+5s2 1S0−5s4f 3F2		Transition							5s2 1S0−5s4f 3F2							5s2  ^1S0-5s4f ^3F2
+5s2 1S0−5s4f 3F2		Matrix element							0.00012							0.00012 ( muB )
 5s4f 3F2−5s4f 3F3		Matrix element							2.49401							2.49401 ( muB )
+5s4f 3F2−5s4f 3F3		Transition rate							0.05266							5.266 (  10^-2 )
 5s4f 3F2−5s4f 3F3		Transition							5s4f 3F2−5s4f 3F3							5s4f    ^3F2- 5s4f  ^3F3
+5s4f 3F3−5s4f 3F4		Transition							5s4f 3F3−5s4f 3F4							5s4f    ^3F3- 5s4f  ^3F4
 5s4f 3F3−5s4f 3F4		Transition rate							0.4898							4.898 (  10^-1 )
 5s4f 3F3−5s4f 3F4		Matrix element							2.50909							2.50909 ( muB )
-5s4f 3F3−5s4f 3F4		Transition							5s4f 3F3−5s4f 3F4							5s4f    ^3F3- 5s4f  ^3F4
-5s4f 3F2−5s4f 3F4		Transition rate							1.098e-7							1.098 (  10^-7 )
-5s4f 3F2−5s4f 3F4		Matrix element							0.07926							0.07926 a.u.
 5s4f 3F2−5s4f 3F4		Transition							5s4f 3F2−5s4f 3F4							5s4f    ^3F2- 5s4f  ^3F4
-5s4f 3F2−5s4f 1F3		(  lambda )							954							954.0
+5s4f 3F2−5s4f 3F4		Matrix element							0.07926							0.07926 a.u.
+5s4f 3F2−5s4f 3F4		Transition rate							1.098e-7							1.098 (  10^-7 )
 5s4f 3F2−5s4f 1F3		Matrix element							0.61326							0.61326 ( muB )
+5s4f 3F2−5s4f 1F3		(  lambda )							954							954.0
 5s4f 3F2−5s4f 1F3		Transition							5s4f 3F2−5s4f 1F3							5s4f    ^3F2- 5s4f  ^1F3
-5s4f 3F4−5s4f 1F3		Transition rate							0.3549							3.549 (  10^-1 )
-5s4f 3F4−5s4f 1F3		Transition							5s4f 3F4−5s4f 1F3							5s4f    ^3F4- 5s4f  ^1F3
 5s4f 3F4−5s4f 1F3		Matrix element							0.61858							0.61858 ( muB )
-5s4f 3F2−5s5p 3P0		Transition							5s4f 3F2−5s5p 3P0							5s4f    ^3F2- 5s5p  ^3P0
-5s4f 3F2−5s5p 3P0		Transition rate							126.5							1.265 (  10^2 )
+5s4f 3F4−5s4f 1F3		Transition							5s4f 3F4−5s4f 1F3							5s4f    ^3F4- 5s4f  ^1F3
+5s4f 3F4−5s4f 1F3		Transition rate							0.3549							3.549 (  10^-1 )
 5s4f 3F2−5s5p 3P0		Matrix element							0.58339							0.58339 a.u.
-5s2 1S0−5s5p 3P1		Transition rate							586800000							5.868 (  10^8 )
+5s4f 3F2−5s5p 3P0		Transition rate							126.5							1.265 (  10^2 )
+5s4f 3F2−5s5p 3P0		Transition							5s4f 3F2−5s5p 3P0							5s4f    ^3F2- 5s5p  ^3P0
 5s2 1S0−5s5p 3P1		Matrix element							0.42601							0.42601 a.u.
+5s2 1S0−5s5p 3P1		Transition rate							586800000							5.868 (  10^8 )
 5s2 1S0−5s5p 3P1		Transition							5s2 1S0−5s5p 3P1							5s^2   ^1S0- 5s5p  ^3P1
+5s4f 3F4−5s5p 3P2		Matrix element							1.1409							1.1409 a.u.
 5s4f 3F4−5s5p 3P2		Transition							5s4f 3F4−5s5p 3P2							5s4f    ^3F4- 5s5p  ^3P2
 5s4f 3F4−5s5p 3P2		Transition rate							863.2							8.632 (  10^2 )
-5s4f 3F4−5s5p 3P2		Matrix element							1.1409							1.1409 a.u.
 5s2 1S0−5s5p 3P2		Transition							5s2 1S0−5s5p 3P2							5s^2   ^1S0- 5s5p  ^3P2
 5s2 1S0−5s5p 3P2		Matrix element							5.972							5.972 ( muB )
+5s4f 3F2−5s5p 3P2		Transition							5s4f 3F2−5s5p 3P2							5s4f    ^3F2- 5s5p  ^3P2
 5s4f 3F2−5s5p 3P2		Matrix element							0.21718							0.21718 a.u.
 5s4f 3F2−5s5p 3P2		Transition rate							37.03							3.703 (  10^1 )
-5s4f 3F2−5s5p 3P2		Transition							5s4f 3F2−5s5p 3P2							5s4f    ^3F2- 5s5p  ^3P2
 5s5p 3P0−5s5p 3P2		Transition							5s5p 3P0−5s5p 3P2							5s5p    ^3P0- 5s5p  ^3P2
 5s5p 3P0−5s5p 3P2		(  lambda )							207							207.0
 5s5p 3P0−5s5p 3P2		Matrix element							1.2316							1.2316 a.u.
 5s5p 3P1−5s5p 3P2		Transition rate							738.4							7.384 (  10^2 )
-5s5p 3P1−5s5p 3P2		Matrix element							1.49436							1.49436 ( muB )
 5s5p 3P1−5s5p 3P2		Transition							5s5p 3P1−5s5p 3P2							5s5p    ^3P1- 5s5p  ^3P2
-5s2 1S0−5s5p 1P1		Transition							5s2 1S0−5s5p 1P1							5s2     ^1S0- 5s5p  ^1P1
-5s2 1S0−5s5p 1P1		Transition rate							19470000000							1.947 (  10^10 )
+5s5p 3P1−5s5p 3P2		Matrix element							1.49436							1.49436 ( muB )
 5s2 1S0−5s5p 1P1		Matrix element							1.3951							1.3951 a.u.
-5s4f 1F3−5s5p 1P1		Transition rate							2740							2.740 (  10^3 )
+5s2 1S0−5s5p 1P1		Transition rate							19470000000							1.947 (  10^10 )
+5s2 1S0−5s5p 1P1		Transition							5s2 1S0−5s5p 1P1							5s2     ^1S0- 5s5p  ^1P1
 5s4f 1F3−5s5p 1P1		Transition							5s4f 1F3−5s5p 1P1							5s4f    ^1F3- 5s5p  ^1P1
+5s4f 1F3−5s5p 1P1		Transition rate							2740							2.740 (  10^3 )
 5s4f 1F3−5s5p 1P1		Matrix element							0.89639							0.89639 a.u.
-5s5p 3P0−5s5p 1P1		Transition rate							1024							1.024 (  10^3 )
 5s5p 3P0−5s5p 1P1		Matrix element							0.42382							0.42382 ( muB )
 5s5p 3P0−5s5p 1P1		Transition							5s5p 3P0−5s5p 1P1							5s5p    ^3P0- 5s5p  ^1P1
-5s5p 3P2−5s5p 1P1		Transition rate							109.3							1.093 (  10^2 )
+5s5p 3P0−5s5p 1P1		Transition rate							1024							1.024 (  10^3 )
 5s5p 3P2−5s5p 1P1		Transition							5s5p 3P2−5s5p 1P1							5s5p    ^3P2- 5s5p  ^1P1
 5s5p 3P2−5s5p 1P1		Matrix element							0.47796							0.47796 ( muB )
+5s5p 3P2−5s5p 1P1		Transition rate							109.3							1.093 (  10^2 )
 --------------------------------------------------------------------------------------------------------------

@@ -1,3 +1,6 @@
+# Previous GitHub Repo
+
+Previous Repo: https://github.com/akshay9594/ATOM_Website_Testing.git
 
 # ATOM Website Testing
 
@@ -12,14 +15,17 @@ Version 2 - https://www1.udel.edu/atom/index.html
 ## Dependencies
 
 1. Software level\
-(a) Python 3.0 and above\
+(a) Python 3.7 and above\
 (b) Google Chrome
 
 2. Python packages\
 (a) Selenium\
 (b) bs4\
 (c) requests\
-(d) html_table_parser
+(d) html_table_parser\
+(e) webdriver_manager\
+(f) html-table-parser-python3\
+(g) numpy\
 
 ## Directory Structure
 
@@ -58,7 +64,8 @@ requirements.txt as follows:
 The master script is the "dynamic_scrape_and_test.py" script. Run this script
 using the following command: 
    
-    python3 dynamic_scrape_and_test.py
+For Macintosh: python3 dynamic_scrape_and_test.py
+For Windows:   python -Xutf8 dynamic_scrape_and_test.py
 
 Notes:
 1. Data for all properties are tested for all elements.

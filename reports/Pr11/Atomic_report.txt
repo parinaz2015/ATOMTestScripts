@@ -7,20 +7,20 @@ Result for table: lower
 
 State			Column						Value in V3(Test)			Value in V2(Ground Truth)
 --------------------------------------------------------------------------------------------------------------
-4f5/2−4f5/2		Transition							4f5/2−4f5/2							4f5/2-5p1/2
 4f5/2−4f5/2		Transition rate							0.00001183							1.183(  10^-5 )
+4f5/2−4f5/2		Transition							4f5/2−4f5/2							4f5/2-5p1/2
 4f5/2−4f5/2		Matrix element							0.955							0.955 a.u.
 4f7/2−4f7/2		Matrix element							1.851							1.851 ( muB )
 4f7/2−4f7/2		Transition							4f7/2−4f7/2							4f7/2-4f5/2
 4f7/2−4f7/2		Transition rate							0.426							4.260(  10^-1 )
-5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-5p1/2
 5p3/2−5p3/2		Transition rate							535.2							5.352(  10^2 )
-5p3/2−5p3/2		Matrix element							1.151							1.151 ( muB )
 5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-5p1/2
+5p3/2−5p3/2		Matrix element							1.151							1.151 ( muB )
 5p3/2−5p3/2		Matrix element							1.851							1.851 a.u.
-5p3/2−5p3/2		Transition rate							0.4058							4.058(  10^-1 )
+5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-5p1/2
 5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-4f5/2
 5p3/2−5p3/2		Matrix element							0.509							0.509 a.u.
-5p3/2−5p3/2		Matrix element							1.258							1.258 a.u.
+5p3/2−5p3/2		Transition rate							0.4058							4.058(  10^-1 )
 5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-4f7/2
+5p3/2−5p3/2		Matrix element							1.258							1.258 a.u.
 --------------------------------------------------------------------------------------------------------------
