@@ -64,9 +64,8 @@ requirements.txt as follows:
 The master script is the "dynamic_scrape_and_test.py" script. Run this script
 using the following command: 
    
-For Macintosh: python3 dynamic_scrape_and_test.py
-
-For Windows:   python -Xutf8 dynamic_scrape_and_test.py
+    For Macintosh: python3 dynamic_scrape_and_test.py
+    For Windows:   python -Xutf8 dynamic_scrape_and_test.py
 
 Notes:
 1. Data for all properties are tested for all elements.
