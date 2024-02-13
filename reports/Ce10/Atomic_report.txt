@@ -7,36 +7,36 @@ Result for table: lower
 
 State			Column						Value in V3(Test)			Value in V2(Ground Truth)
 --------------------------------------------------------------------------------------------------------------
-4f7/2−4f7/2		(  lambda  ) 							415.1							299.2
-4f7/2−4f7/2		Transition rate							0.262							3.335 (  10^2 )
-4f7/2−4f7/2		Matrix element							1.518							1.151   ( muB )
-4f7/2−4f7/2		Transition							4f7/2−4f7/2							5p3/2-5p1/2
-4f7/2−4f7/2		Type							E2							M1
-4f7/2−4f7/2		Transition energy 							24093							33427
-5p3/2−5p3/2		Transition rate							333.5							4.86
-5p3/2−5p3/2		Type							M1							E2
-5p3/2−5p3/2		Matrix element							1.151							2.040   a.u.
-5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2-5p1/2
-5p3/2−5p3/2		Matrix element							2.04							1.146   a.u.
-5p3/2−5p3/2		Transition energy 							33427							54947
-5p3/2−5p3/2		Transition							5p3/2−5p3/2							4f5/2-5p1/2
-5p3/2−5p3/2		Transition rate							4.86							1.229 (  10^1 )
-5p3/2−5p3/2		(  lambda  ) 							299.2							182.0
-4f5/2−4f5/2		Transition energy 							54947							21520
-4f5/2−4f5/2		Transition rate							12.29							3.260 (  10^-2 )
-4f5/2−4f5/2		Matrix element							1.146							0.615   a.u.
-4f5/2−4f5/2		Transition							4f5/2−4f5/2							4f5/2-5p3/2
-4f5/2−4f5/2		(  lambda  ) 							182							464.7
-4f5/2−4f5/2		Matrix element							0.615							1.851   ( muB )
-4f5/2−4f5/2		Transition energy 							21520							2573
-4f5/2−4f5/2		Type							E2							M1
-4f5/2−4f5/2		(  lambda  ) 							464.7							3887
-4f5/2−4f5/2		Transition							4f5/2−4f5/2							4f7/2-4f5/2
-4f5/2−4f5/2		Transition rate							0.0326							1.968 (  10^-1 )
-4f7/2−4f7/2		Transition energy 							2573							24093
-4f7/2−4f7/2		Matrix element							1.851							1.518   a.u.
-4f7/2−4f7/2		Transition							4f7/2−4f7/2							4f7/2-5p3/2
-4f7/2−4f7/2		Type							M1							E2
-4f7/2−4f7/2		Transition rate							0.1968							2.620 (  10^-1 )
-4f7/2−4f7/2		(  lambda  ) 							3887							415.1
+4f7/2−5p3/2		Type							E2							M1
+4f7/2−5p3/2		Transition energy 							24093							33427
+4f7/2−5p3/2		Transition rate							0.262							3.335 (  10^2 )
+4f7/2−5p3/2		Matrix element							1.518							1.151   ( muB )
+4f7/2−5p3/2		(  lambda  ) 							415.1							299.2
+4f7/2−5p3/2		Transition							4f7/2−5p3/2							5p3/2-5p1/2
+5p3/2−5p1/2		Matrix element							1.151							2.040   a.u.
+5p3/2−5p1/2		Transition							5p3/2−5p1/2							5p3/2-5p1/2
+5p3/2−5p1/2		Type							M1							E2
+5p3/2−5p1/2		Transition rate							333.5							4.86
+5p3/2−5p1/2		Transition energy 							33427							54947
+5p3/2−5p1/2		Transition							5p3/2−5p1/2							4f5/2-5p1/2
+5p3/2−5p1/2		(  lambda  ) 							299.2							182.0
+5p3/2−5p1/2		Transition rate							4.86							1.229 (  10^1 )
+5p3/2−5p1/2		Matrix element							2.04							1.146   a.u.
+4f5/2−5p1/2		Transition energy 							54947							21520
+4f5/2−5p1/2		(  lambda  ) 							182							464.7
+4f5/2−5p1/2		Transition rate							12.29							3.260 (  10^-2 )
+4f5/2−5p1/2		Matrix element							1.146							0.615   a.u.
+4f5/2−5p1/2		Transition							4f5/2−5p1/2							4f5/2-5p3/2
+4f5/2−5p3/2		(  lambda  ) 							464.7							3887
+4f5/2−5p3/2		Type							E2							M1
+4f5/2−5p3/2		Transition							4f5/2−5p3/2							4f7/2-4f5/2
+4f5/2−5p3/2		Matrix element							0.615							1.851   ( muB )
+4f5/2−5p3/2		Transition rate							0.0326							1.968 (  10^-1 )
+4f5/2−5p3/2		Transition energy 							21520							2573
+4f7/2−4f5/2		Type							M1							E2
+4f7/2−4f5/2		Transition							4f7/2−4f5/2							4f7/2-5p3/2
+4f7/2−4f5/2		Transition energy 							2573							24093
+4f7/2−4f5/2		Matrix element							1.851							1.518   a.u.
+4f7/2−4f5/2		Transition rate							0.1968							2.620 (  10^-1 )
+4f7/2−4f5/2		(  lambda  ) 							3887							415.1
 --------------------------------------------------------------------------------------------------------------

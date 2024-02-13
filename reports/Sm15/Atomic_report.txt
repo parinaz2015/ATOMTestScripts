@@ -7,62 +7,62 @@ Result for table: lower
 
 State			Column						Value in V3(Test)			Value in V2(Ground Truth)
 --------------------------------------------------------------------------------------------------------------
-4f5s 3F2−4f2 3H4		Matrix element							0.03516							0.03516 ( muB )
 4f5s 3F2−4f2 3H4		Transition rate							1.782e-14							1.782(   10^-14 )
 4f5s 3F2−4f2 3H4		Transition							4f5s 3F2−4f2 3H4							   4f5s  ^3F2 - 4f^2  ^3H4 
+4f5s 3F2−4f2 3H4		Matrix element							0.03516							0.03516 ( muB )
+4f5s 3F3−4f2 3H4		Transition							4f5s 3F3−4f2 3H4							   4f5s  ^3F3 -4f^2  ^3H4 
 4f5s 3F3−4f2 3H4		Matrix element							0.00092							0.00092 a.u.
 4f5s 3F3−4f2 3H4		Transition rate							0.01366							1.366(   10^-2 )
-4f5s 3F3−4f2 3H4		Transition							4f5s 3F3−4f2 3H4							   4f5s  ^3F3 -4f^2  ^3H4 
 4f5s 3F3−4f5s 3F2		Transition rate							0.1038							1.038(  10^-1 )
-4f5s 3F3−4f5s 3F2		Transition							4f5s 3F3−4f5s 3F2							   4f5s  ^3F3 -  4f5s   ^3F2 
 4f5s 3F3−4f5s 3F2		Matrix element							2.43986							2.43986 ( muB )
-4f2 3H5−4f2 3H4		Matrix element							3.19913							3.19913 ( muB )
+4f5s 3F3−4f5s 3F2		Transition							4f5s 3F3−4f5s 3F2							   4f5s  ^3F3 -  4f5s   ^3F2 
 4f2 3H5−4f2 3H4		Transition							4f2 3H5−4f2 3H4							   4f^2  ^3H5 -  4f^2  ^3H4 
+4f2 3H5−4f2 3H4		Matrix element							3.19913							3.19913 ( muB )
 4f5s 3F4−4f5s 3F3		Transition							4f5s 3F4−4f5s 3F3							   4f5s  ^3F4 -  4f5s   ^3F3 
 4f5s 3F4−4f5s 3F3		Matrix element							2.45429							2.45429 ( muB )
 4f2 3F2−4f5s 3F3		Matrix element							0.00652							0.00652 a.u.
 4f2 3F2−4f5s 3F3		Transition							4f2 3F2−4f5s 3F3							   4f^2  ^3F2 - 4f5s   ^3F3 
 4f2 3F2−4f2 3H4		Matrix element							0.49808							0.49808 a.u.
-4f2 3F2−4f2 3H4		Transition rate							0.0003676							3.676(  10^-4 )
 4f2 3F2−4f2 3H4		Transition							4f2 3F2−4f2 3H4							   4f^2  ^3F2 - 4f^2   ^3H4 
-4f2 3H6−4f2 3H5		Matrix element							3.26426							3.26426 ( muB )
+4f2 3F2−4f2 3H4		Transition rate							0.0003676							3.676(  10^-4 )
 4f2 3H6−4f2 3H5		Transition							4f2 3H6−4f2 3H5							   4f^2  ^3H6 - 4f^2  ^3H5 
+4f2 3H6−4f2 3H5		Matrix element							3.26426							3.26426 ( muB )
 4f2 3F3−4f5s 3F2		Matrix element							0.00205							0.00205 a.u.
 4f2 3F3−4f5s 3F2		Transition							4f2 3F3−4f5s 3F2							   4f^2  ^3F3 - 4f5s   ^3F2 
+4f2 3F3−4f5s 3F4		Transition							4f2 3F3−4f5s 3F4							   4f^2  ^3F3 - 4f5s   ^3F4 
 4f2 3F3−4f5s 3F4		Matrix element							0.00601							0.00601 a.u.
 4f2 3F3−4f5s 3F4		Transition rate							0.7041							7.041(  10^-1 )
-4f2 3F3−4f5s 3F4		Transition							4f2 3F3−4f5s 3F4							   4f^2  ^3F3 - 4f5s   ^3F4 
-4f2 3F3−4f2 3F2		Transition							4f2 3F3−4f2 3F2							   4f^2  ^3F3 - 4f^2  ^3F2 
-4f2 3F3−4f2 3F2		Matrix element							2.52457							2.52457 ( muB )
 4f2 3F3−4f2 3F2		Transition rate							0.9028							9.028(  10^-1 )
-4f2 3F3−4f2 3H4		Transition							4f2 3F3−4f2 3H4							   4f^2  ^3F3 -  4f^2  ^3H4 
+4f2 3F3−4f2 3F2		Matrix element							2.52457							2.52457 ( muB )
+4f2 3F3−4f2 3F2		Transition							4f2 3F3−4f2 3F2							   4f^2  ^3F3 - 4f^2  ^3F2 
 4f2 3F3−4f2 3H4		Matrix element							0.10761							0.10761 ( muB )
 4f2 3F3−4f2 3H4		Transition rate							0.08782							8.782(   10^-2 )
-4f2 1G4−4f5s 3F3		Matrix element							0.00373							0.00373 a.u.
+4f2 3F3−4f2 3H4		Transition							4f2 3F3−4f2 3H4							   4f^2  ^3F3 -  4f^2  ^3H4 
 4f2 1G4−4f5s 3F3		Transition							4f2 1G4−4f5s 3F3							   4f^2  ^1G4 -  4f5s   ^3F3 
+4f2 1G4−4f5s 3F3		Matrix element							0.00373							0.00373 a.u.
 4f2 1G4−4f2 3H5		Transition rate							0.453							4.530(   10^-1 )
 4f2 1G4−4f2 3H5		Matrix element							0.52656							0.52656 ( muB )
 4f2 1G4−4f2 3H5		Transition							4f2 1G4−4f2 3H5							   4f^2  ^1G4 -  4f^2  ^3H5 
 4f2 1G4−4f2 3F3		Matrix element							1.95991							1.95991 ( muB )
 4f2 1G4−4f2 3F3		Transition rate							0.0022							2.200(  10^-3 )
 4f2 1G4−4f2 3F3		Transition							4f2 1G4−4f2 3F3							   4f^2  ^1G4 -  4f^2  ^3F3 
-4f5s 1F3−4f2 3H4		Transition							4f5s 1F3−4f2 3H4							   4f5s  ^1F3 -  4f^2  ^3H4 
 4f5s 1F3−4f2 3H4		Matrix element							0.00475							0.00475 a.u.
+4f5s 1F3−4f2 3H4		Transition							4f5s 1F3−4f2 3H4							   4f5s  ^1F3 -  4f^2  ^3H4 
 4f5s 1F3−4f2 3H4		Transition rate							19.29							1.929(  10^1 )
-4f5s 1F3−4f5s 3F2		Transition							4f5s 1F3−4f5s 3F2							   4f5s  ^1F3 - 4f5s   ^3F2 
 4f5s 1F3−4f5s 3F2		Matrix element							0.80183							0.80183 ( muB )
+4f5s 1F3−4f5s 3F2		Transition							4f5s 1F3−4f5s 3F2							   4f5s  ^1F3 - 4f5s   ^3F2 
 4f5s 1F3−4f5s 3F4		Transition							4f5s 1F3−4f5s 3F4							   4f5s  ^1F3 - 4f5s   ^3F4 
 4f5s 1F3−4f5s 3F4		Transition rate							0.5108							5.108(  10^-1 )
 4f5s 1F3−4f5s 3F4		Matrix element							0.80877							0.80877 ( muB )
 4f5s 1F3−4f2 3F4		Transition							4f5s 1F3−4f2 3F4							   4f5s  ^1F3 -  4f^2  ^3F4 
-4f5s 1F3−4f2 3F4		Matrix element							0.01529							0.01529 a.u.
 4f5s 1F3−4f2 3F4		Transition rate							0.1255							1.255 (  10^-1 )
-4f2 3F4−4f5s 1F3		Transition							4f2 3F4−4f5s 1F3							   4f^2  ^3F4 - 4f5s   ^1F3 
+4f5s 1F3−4f2 3F4		Matrix element							0.01529							0.01529 a.u.
 4f2 3F4−4f5s 1F3		Matrix element							0.01635							0.01635 a.u.
-4f2 3F4−4f5s 3F3		Transition							4f2 3F4−4f5s 3F3							   4f^2  ^3F4 - 4f5s   ^3F3 
+4f2 3F4−4f5s 1F3		Transition							4f2 3F4−4f5s 1F3							   4f^2  ^3F4 - 4f5s   ^1F3 
 4f2 3F4−4f5s 3F3		Matrix element							0.0012							0.00120 a.u.
-4f2 3F4−4f2 3H5		Transition							4f2 3F4−4f2 3H5							   4f^2  ^3F4 -  4f^2  ^3H5 
+4f2 3F4−4f5s 3F3		Transition							4f2 3F4−4f5s 3F3							   4f^2  ^3F4 - 4f5s   ^3F3 
 4f2 3F4−4f2 3H5		Matrix element							0.40844							0.40844 ( muB )
-4f2 3F4−4f2 3F3		Transition							4f2 3F4−4f2 3F3							   4f^2  ^3F4 - 4f^2  ^3F3 
+4f2 3F4−4f2 3H5		Transition							4f2 3F4−4f2 3H5							   4f^2  ^3F4 -  4f^2  ^3H5 
 4f2 3F4−4f2 3F3		Matrix element							1.67986							1.67986 ( muB )
+4f2 3F4−4f2 3F3		Transition							4f2 3F4−4f2 3F3							   4f^2  ^3F4 - 4f^2  ^3F3 
 --------------------------------------------------------------------------------------------------------------

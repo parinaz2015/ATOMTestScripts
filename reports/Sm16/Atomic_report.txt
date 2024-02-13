@@ -7,24 +7,24 @@ Result for table: lower
 
 State			Column						Value in V3(Test)			Value in V2(Ground Truth)
 --------------------------------------------------------------------------------------------------------------
-4f7/2−4f7/2		Transition							4f7/2−4f7/2							4f7/2 -4f5/2
-4f7/2−4f7/2		Matrix element							1.85							1.85 ( muB )
-4f7/2−4f7/2		Transition rate							0.000008801							8.801 (  10^-6 )
-4f7/2−4f7/2		Transition							4f7/2−4f7/2							4f7/2-4f5/2
-4f7/2−4f7/2		Matrix element							0.228							0.228 a.u.
-5s1/2−5s1/2		Transition rate							0.000001986							1.986 (  10^-6 )
-5s1/2−5s1/2		Matrix element							0.657							0.657 a.u.
-5s1/2−5s1/2		Transition							5s1/2−5s1/2							5s1/2-4f5/2
-5s1/2−5s1/2		Transition rate							0.000001214							1.214 (  10^-6 )
-5s1/2−5s1/2		Transition							5s1/2−5s1/2							5s1/2 -4f7/2
-5s1/2−5s1/2		Matrix element							0.768							0.768 a.u.
-5s1/2−5s1/2		Transition							5s1/2−5s1/2							5s1/2 -4f5/2
-5s1/2−5s1/2		Matrix element							0.00025							0.00025 ( muB )
-5s1/2−5s1/2		Transition rate							3.643e-11							3.643 (  10^-11 )
-5p1/2−5p1/2		Transition rate							5978000000							5.978 (  10^9 )
-5p1/2−5p1/2		Transition							5p1/2−5p1/2							5p1/2 -5s1/2
-5p1/2−5p1/2		Matrix element							0.809							0.809 a.u.
-5p3/2−5p3/2		Matrix element							1.153							1.153 a.u.
-5p3/2−5p3/2		Transition							5p3/2−5p3/2							5p3/2 -5s1/2
-5p3/2−5p3/2		Transition rate							13680000000							1.368 (  10^10 )
+4f7/2−4f5/2		Transition							4f7/2−4f5/2							4f7/2 -4f5/2
+4f7/2−4f5/2		Matrix element							1.85							1.85 ( muB )
+4f7/2−4f5/2		Transition rate							0.000008801							8.801 (  10^-6 )
+4f7/2−4f5/2		Matrix element							0.228							0.228 a.u.
+4f7/2−4f5/2		Transition							4f7/2−4f5/2							4f7/2-4f5/2
+5s1/2−4f5/2		Matrix element							0.657							0.657 a.u.
+5s1/2−4f5/2		Transition rate							0.000001986							1.986 (  10^-6 )
+5s1/2−4f5/2		Transition							5s1/2−4f5/2							5s1/2-4f5/2
+5s1/2−4f7/2		Transition rate							0.000001214							1.214 (  10^-6 )
+5s1/2−4f7/2		Transition							5s1/2−4f7/2							5s1/2 -4f7/2
+5s1/2−4f7/2		Matrix element							0.768							0.768 a.u.
+5s1/2−4f5/2		Transition rate							3.643e-11							3.643 (  10^-11 )
+5s1/2−4f5/2		Transition							5s1/2−4f5/2							5s1/2 -4f5/2
+5s1/2−4f5/2		Matrix element							0.00025							0.00025 ( muB )
+5p1/2−5s1/2		Matrix element							0.809							0.809 a.u.
+5p1/2−5s1/2		Transition							5p1/2−5s1/2							5p1/2 -5s1/2
+5p1/2−5s1/2		Transition rate							5978000000							5.978 (  10^9 )
+5p3/2−5s1/2		Transition rate							13680000000							1.368 (  10^10 )
+5p3/2−5s1/2		Matrix element							1.153							1.153 a.u.
+5p3/2−5s1/2		Transition							5p3/2−5s1/2							5p3/2 -5s1/2
 --------------------------------------------------------------------------------------------------------------

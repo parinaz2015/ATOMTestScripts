@@ -1,6 +1,0 @@
-Missing Columns in Test Data for state: 2p1/2 , No Testing performed!
-----------------------------------------------------------------------------
-Missing Columns in Test Data for state: 2p3/2 , No Testing performed!
-----------------------------------------------------------------------------
-Missing Columns in Test Data for state: 2s1/2 , No Testing performed!
-----------------------------------------------------------------------------

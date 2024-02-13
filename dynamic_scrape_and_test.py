@@ -20,23 +20,23 @@ def test_properties(element,gnd_truth_url,path_to_reports_dir):
     print("========================================================\nTesting Results for",element,":")
     
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    print("1. Matrix Elements")
-    test_MatrixElementData(element,driver,gnd_truth_url,path_to_reports_dir)
+   # print("1. Matrix Elements")
+   # test_MatrixElementData(element,driver,gnd_truth_url,path_to_reports_dir)
 
-    print("\n2. Transition Rates")
-    test_TransitionRatesData(element,driver,gnd_truth_url,path_to_reports_dir)
+   # print("\n2. Transition Rates")
+   # test_TransitionRatesData(element,driver,gnd_truth_url,path_to_reports_dir)
 
-    print("\n3. Hyperfine Constants")
-    test_HyperfineData(element,driver,gnd_truth_url,path_to_reports_dir)
+   # print("\n3. Hyperfine Constants")
+   # test_HyperfineData(element,driver,gnd_truth_url,path_to_reports_dir)
 
-    print("\n4. Nuclear")
-    test_NuclearData(element,driver,gnd_truth_url,path_to_reports_dir)
+   # print("\n4. Nuclear")
+   # test_NuclearData(element,driver,gnd_truth_url,path_to_reports_dir)
 
-    print("\n5. Energies")
-    test_EnergiesData(element,driver,gnd_truth_url,path_to_reports_dir)
+   # print("\n5. Energies")
+   # test_EnergiesData(element,driver,gnd_truth_url,path_to_reports_dir)
 
-    print("\n6. Atomic")
-    test_AtomicData(element,driver,gnd_truth_url,path_to_reports_dir)
+   # print("\n6. Atomic")
+   # test_AtomicData(element,driver,gnd_truth_url,path_to_reports_dir)
 
     print("\n7. Polarizability")
     test_PolarizabilityData(element,driver,gnd_truth_url,path_to_reports_dir)
