@@ -3,7 +3,7 @@
 def element_data(atom,req_data):
     # Dictionary containing atom-specific data
     switcher = {
-        "Li": 1,
+       # "Li": 1,
        # "Na": 1,
        # "K": 1,"Ce": 10,
        # "Rb": 1,"Pr": 11,
@@ -12,6 +12,7 @@ def element_data(atom,req_data):
        # "Be": 2,"Eu": 15,
        # "Mg": 2,"Cf": [16,18],
        # "Ca": 2,
+        "Sr" : 1,
        # "Sr": [1,2],
        # "Ba": [2,8],
        # "Ra": 2,
