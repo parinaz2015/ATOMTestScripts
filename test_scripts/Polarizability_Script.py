@@ -97,9 +97,17 @@ def perform_testing(GndTruth_data:dict,Test_data:dict,path_to_reports_dir:str):
     with open(report_path, 'w') as file:
         #First check if the ground truth and test tables have equal number of columns
         #If yes proceed, if no stop.
+        mismatch_found = False  # Flag to track if any mismatches were found
         for state in States_GndTruth:
             GndTruth_Table = GndTruth_data[state]
             Header_GndTruth = GndTruth_Table[0]
+
+            if state not in Test_data:
+                file.write("State " + state + " not found in Test data.\n")
+                file.write("No Testing performed for this state.\n")
+                file.write("----------------------------------------------------------------------------\n")
+                continue  # Skip to the next state if test data for this state is missing
+
 
             Test_Table = Test_data[state]
             Header_Test = Test_Table[0]
@@ -111,8 +119,13 @@ def perform_testing(GndTruth_data:dict,Test_data:dict,path_to_reports_dir:str):
                         Missing_Column_titles.append(title)
 
                 file.write("Missing Columns in Test Data for state: "+ state+ " , No Testing performed!\n")
+                file.write("Missing Columns: " + ', '.join(Missing_Column_titles) + "\n")
                 file.write("----------------------------------------------------------------------------\n")
+                mismatch_found = True
 
+            if not mismatch_found:
+                file.write("No mismatches found for state: "+ state+ ", Test completed successfully.\n")
+                file.write("----------------------------------------------------------------------------\n")
     return
 
 

@@ -72,7 +72,11 @@ def Get_Polarizability_GndTruth_Data(element,path_to_data):
         state_string = (string_with_state.split("_Dynamic_"))[0]
         state = state_string.replace("_","").replace("-","/")
 #2p1.csv 2p3.csv, 2s.csv
-        GndTruth_Data_tables[state] = file_content
+        # Keep only the first two columns of file_content
+        # Keep only the first two columns of file_content
+        modified_content = [[row[0], row[1]] for row in file_content]
+        # Store the modified file content in the dictionary with the state as the key
+        GndTruth_Data_tables[state] = modified_content
 
 #dont delete extra columns        
     return GndTruth_Data_tables

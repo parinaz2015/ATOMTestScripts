@@ -16,6 +16,7 @@ import os,sys
 
 
 def test_properties(element,gnd_truth_url,path_to_reports_dir):
+    pol_gnd_truth_url= 'https://www1.udel.edu/atom/dev/version3/polarizability?element='+element
 
     print("========================================================\nTesting Results for",element,":")
     
@@ -39,7 +40,7 @@ def test_properties(element,gnd_truth_url,path_to_reports_dir):
    # test_AtomicData(element,driver,gnd_truth_url,path_to_reports_dir)
 
     print("\n7. Polarizability")
-    test_PolarizabilityData(element,driver,gnd_truth_url,path_to_reports_dir)
+    test_PolarizabilityData(element,driver,pol_gnd_truth_url,path_to_reports_dir)
 
     driver.close()
 
