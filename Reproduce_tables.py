@@ -110,26 +110,23 @@ def Get_Polarizability_Test_Data(driver,url,data_directory,element):
 #   Note:
 #       - The function interacts with the web page to download a zip file containing CSV files,
 #         extracts the files, and organizes the data into a dictionary.
-    #driver = webdriver.Chrome() 
+    driver = webdriver.Chrome() 
     # load the web page
     driver.get(url)
 
     driver.implicitly_wait(10)
-    #select all the check boxes and then download data
-    #..................................
-
-
-
-
-
-    # Find the "Download plotted data" button and click it
+     # Find the "Download plotted data" button and click it
     try:
         # Click on all the checkboxes on the screen
         checkboxes = driver.find_elements(By.XPATH, '//i[@class="fa fa-check"]')
         for checkbox in checkboxes:
             # Execute JavaScript to change the visibility style attribute to "visible"
             driver.execute_script("arguments[0].style.visibility = 'visible';", checkbox)
-
+            # Call the toggleSelectedState function
+            # Run JavaScript to print debug message when the element becomes visible
+           # driver.execute_script("console.log('dbg: selected state:', arguments[0].checked);", checkbox)
+    
+        time.sleep(10)  # After making the checkboxes visible, add additional wait time to ensure that any potential JavaScript actions or events triggered by the visibility change have time to execute before clicking the download button
         download_button = driver.find_element(By.XPATH, '//a[contains(text(), "Download plotted data")]')
         download_button.click()
     except:
@@ -137,18 +134,23 @@ def Get_Polarizability_Test_Data(driver,url,data_directory,element):
         return "Error: Button not found"
     
     # Wait for the download to complete
-    time.sleep(10)  # Adjust as needed
+    time.sleep(5)  # Adjust as needed
     
     # Close the browser
     #driver.quit()
 
     # Find the downloaded file
     downloaded_files = glob.glob(os.path.join(os.path.expanduser('~'), 'Downloads', element+'DynamicPolarizabilities*.zip'))
+    # Get a list of matching files
+    #matching_files = glob.glob(pattern)
+
+    # Find the most recently created file
+    most_recent_file = max(downloaded_files, key=os.path.getctime)
     if len(downloaded_files) == 0:
         return "Error: Downloaded file not found"
     
     # Get the path to the downloaded file
-    downloaded_file_path = downloaded_files[0]
+    downloaded_file_path = most_recent_file #downloaded_files[0]
     
     # Move the downloaded file to the destination folder
     #C:\Users\parin\Desktop\Atom\ATOM-testing\Data\Polarizability\Li1\Test
@@ -177,17 +179,18 @@ def Get_Polarizability_Test_Data(driver,url,data_directory,element):
 # this part needs to be modified so that similar file names are stored.
             #string_with_state = (file_path.split("2p_"))[1] 
             # Extract state information from the file path
-        if "2s_" in file_path:
-            string_with_state = file_path.split("2s_")[1]
-        elif "2p_" in file_path:
-            string_with_state = file_path.split("2p_")[1]
-        elif element + "_" in file_path:
-            string_with_state = file_path.split(element + "_")[1]
-        else:
-            print("Error: Invalid file name format")
-            continue  # Skip this file and move to the next one
+        # if "2s_" in file_path:
+        #     string_with_state = file_path.split("2s_")[1]
+        # elif "2p_" in file_path:
+        #     string_with_state = file_path.split("2p_")[1]
+        # elif element + "_" in file_path:
+        #     string_with_state = file_path.split(element + "_")[1]
+        # else:
+        #     print("Error: Invalid file name format")
+        #     continue  # Skip this file and move to the next one
             #state_string = (string_with_state.split("_Dynamic_"))[0]
-        state = string_with_state.replace("_","").replace("-2","")
+        string_with_state = os.path.basename(file_path)
+        state = (string_with_state.split(".csv"))[0] #.replace("_","").replace("-2","")
 
             #header = file_content[0]
             #state = header[1]
@@ -195,6 +198,16 @@ def Get_Polarizability_Test_Data(driver,url,data_directory,element):
          # Convert state to lowercase
         state = state.lower()
         test_table_dictionary[state] = file_content
+
+    for state, data_table in test_table_dictionary.items():
+    # Print the name of the table (state)
+        print("Table Name:", state)
+    
+    # Print the first row of the table
+        if data_table:
+            print("First Row:", data_table[0])
+        else:
+            print("Table is empty")    
     # Return the dictionary containing polarizability test data
     return test_table_dictionary
 
