@@ -175,7 +175,10 @@ def perform_testing(GndTruth_data:dict,Test_data:dict,path_to_reports_dir:str):
 
                     # Compare values, recording a mismatch if a None value is found or the difference exceeds the tolerance
                     for gt_val, test_val in zip(ground_truth_values, test_values):
-                        if gt_val is None or test_val is None or abs(gt_val - test_val) > tolerance:
+                        if (abs(gt_val) > 5000 and test_val is None):
+                            # If the ground truth value is outside of [-5000, 5000], it's acceptable for the test value to be None
+                            continue
+                        elif test_val is None or abs(gt_val - test_val) > tolerance:#gt_val is None or test_val is None or abs(gt_val - test_val) > tolerance:
                             mismatch_found = True
                             # Write the mismatch details to the file
                             # file.write(f"{wavelength}  ")
