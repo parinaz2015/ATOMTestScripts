@@ -154,12 +154,56 @@ def perform_testing(GndTruth_data:dict,Test_data:dict,path_to_reports_dir:str):
                 file.write(f"\n\nState: {state}\n")
                 file.write(f"Mismatch  [     GndTruth Data     ]   [     Test Data     ]\n")
                 file.write(f" ===========================================\n")
+                # Define a tolerance for comparison
+                tolerance = 0.02 # the least significant numbers with be subtracted.we have two digits after decimal point
                 for wavelength in common_wavelengths:
-                    if wavelengths_GndTruth[wavelength] != wavelengths_Test[wavelength]:
-                        mismatch_found = True
-                        #file.write(f"Mismatch  wavelength {wavelength}.\n")
-                        file.write(f"{wavelengths_GndTruth[wavelength]}")
-                        file.write(f"{wavelengths_Test[wavelength]}\n")
+                    # Attempt to convert values to float, or set to None if conversion fails
+                    ground_truth_values = []
+                    test_values = []
+                    
+                    for val in wavelengths_GndTruth[wavelength][1:]:
+                        try:
+                            ground_truth_values.append(float(val))
+                        except ValueError:
+                            ground_truth_values.append(None)
+
+                    for val in wavelengths_Test[wavelength][1:]:
+                        try:
+                            test_values.append(float(val))
+                        except ValueError:
+                            test_values.append(None)
+
+                    # Compare values, recording a mismatch if a None value is found or the difference exceeds the tolerance
+                    for gt_val, test_val in zip(ground_truth_values, test_values):
+                        if gt_val is None or test_val is None or abs(gt_val - test_val) > tolerance:
+                            mismatch_found = True
+                            # Write the mismatch details to the file
+                            # file.write(f"{wavelength}  ")
+                            file.write(f"{wavelengths_GndTruth[wavelength]}")
+                            file.write(f"{wavelengths_Test[wavelength]}\n")
+                    # # Safely convert values to float, skipping empty strings
+                    # ground_truth_values = [float(val) if val else None for val in wavelengths_GndTruth[wavelength][1:]]
+                    # test_values = [float(val) if val else None for val in wavelengths_Test[wavelength][1:]]
+    
+                    # # Compare values within the defined tolerance
+                    # for gt_val, test_val in zip(ground_truth_values, test_values):
+                    #     if gt_val is None or test_val is None:
+                    #         mismatch_found = True
+                    #         # Write the mismatch details to the file
+                    #         file.write(f"Mismatch at wavelength {wavelength}.\n")
+                    #         file.write(f"Ground Truth: {wavelengths_GndTruth[wavelength]}\n")
+                    #         file.write(f"Test Values: {wavelengths_Test[wavelength]}\n")
+                    #     if abs(gt_val - test_val) > tolerance:
+                    #         mismatch_found = True
+                    #         # Write the mismatch details to the file
+                    #         file.write(f"Mismatch at wavelength {wavelength}.\n")
+                    #         file.write(f"Ground Truth: {wavelengths_GndTruth[wavelength]}\n")
+                    #         file.write(f"Test Values: {wavelengths_Test[wavelength]}\n")
+                    # if wavelengths_GndTruth[wavelength] != wavelengths_Test[wavelength]:
+                    #     mismatch_found = True
+                    #     #file.write(f"Mismatch  wavelength {wavelength}.\n")
+                    #     file.write(f"{wavelengths_GndTruth[wavelength]}")
+                    #     file.write(f"{wavelengths_Test[wavelength]}\n")
 
                 missing_wavelengths = set(wavelengths_GndTruth.keys()) ^ set(wavelengths_Test.keys())
                 if missing_wavelengths:
