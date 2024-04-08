@@ -116,8 +116,21 @@ No mismatches found for state: sr1_5s.4d_3d_3, Test completed successfully.
 ----------------------------------------------------------------------------
 
 
-Missing Columns in Test Data for state: sr1_5s.5p_3p_0 , No Testing performed!
-Header_GndTruth = ['wavelength']	Header_Test = ['wavelength', 'alpha(m=0)']
+State: sr1_5s.5p_3p_0
+Mismatch  [     GndTruth Data     ]   [     Test Data     ]
+ ===========================================
+
+
+Missing wavelengths  [     GndTruth Data     ]   [     Test Data     ]
+Missing 432.765: [Not Found] [['432.765', 'NaN']]
+Missing 432.775: [Not Found] [['432.775', 'NaN']]
+Missing 474.325: [Not Found] [['474.325', 'NaN']]
+Missing 474.35: [Not Found] [['474.35', 'NaN']]
+Missing 483.34000000000003: [Not Found] [['483.34000000000003', 'NaN']]
+Missing 483.41499999999996: [Not Found] [['483.41499999999996', 'NaN']]
+Missing 679.29: [Not Found] [['679.29', 'NaN']]
+Missing 679.335: [Not Found] [['679.335', 'NaN']]
+No mismatches found for state: sr1_5s.5p_3p_0, Test completed successfully.
 ----------------------------------------------------------------------------
 
 
@@ -157,6 +170,8 @@ Missing 689.4490000000001: [Not Found] [['689.4490000000001', 'NaN', '']]
 Missing 689.454: [Not Found] [['689.454', 'NaN', '']]
 Missing 1771.3690000000001: [Not Found] [['1771.3690000000001', 'NaN', 'NaN']]
 Missing 1771.379: [Not Found] [['1771.379', 'NaN', 'NaN']]
+No mismatches found for state: sr1_5s.5p_3p_1, Test completed successfully.
+----------------------------------------------------------------------------
 
 
 State: sr1_5s.5p_3p_2
@@ -197,8 +212,19 @@ Missing 707.2: [Not Found] [['707.2', 'NaN', 'NaN', '']]
 Missing 707.27: [Not Found] [['707.27', 'NaN', 'NaN', '']]
 Missing 1904.3485: [Not Found] [['1904.3485', '', 'NaN', 'NaN']]
 Missing 1904.3494999999998: [Not Found] [['1904.3494999999998', '', 'NaN', 'NaN']]
+No mismatches found for state: sr1_5s.5p_3p_2, Test completed successfully.
+----------------------------------------------------------------------------
 
 
-Missing Columns in Test Data for state: sr1_5s2_1s_0 , No Testing performed!
-Header_GndTruth = ['wavelength']	Header_Test = ['wavelength', 'alpha(m=0)']
+State: sr1_5s2_1s_0
+Mismatch  [     GndTruth Data     ]   [     Test Data     ]
+ ===========================================
+
+
+Missing wavelengths  [     GndTruth Data     ]   [     Test Data     ]
+Missing 460.86: [Not Found] [['460.86', 'NaN']]
+Missing 460.885: [Not Found] [['460.885', 'NaN']]
+Missing 689.4490000000001: [Not Found] [['689.4490000000001', 'NaN']]
+Missing 689.453: [Not Found] [['689.453', 'NaN']]
+No mismatches found for state: sr1_5s2_1s_0, Test completed successfully.
 ----------------------------------------------------------------------------
