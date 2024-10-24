@@ -1,7 +1,3 @@
-# Previous GitHub Repo
-
-Previous Repo: https://github.com/akshay9594/ATOM_Website_Testing.git
-
 # ATOM Website Testing
 
 This README provides instructions on how to run the scripts to test
