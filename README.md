@@ -4,9 +4,14 @@ This README provides instructions on how to run the scripts to test
 Version 3 against Version 2 of the website. Details about the 
 various directories has also been provided.
 
-Version 3 - https://www1.udel.edu/atom/dev/version3/
+Access File to Atom Project: https://docs.google.com/document/d/1snUMKd2w-gYzlHpy08NvHaffJXlJNfV5NPAVtRyAQUQ/edit?usp=sharing
 
 Version 2 - https://www1.udel.edu/atom/index.html
+
+Version 3 - https://www1.udel.edu/atom/dev/version3/
+- Frontend: https://github.com/amanikiruga/atom-v3 
+- Backend: https://github.com/amanikiruga/atomv3-backend 
+- Testing v2.0: https://github.com/parinaz2015/ATOMTestScripts
 
 ## Dependencies
 
